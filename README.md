@@ -79,10 +79,14 @@ config.nanorc       etcxml.nanorc      makefile.nanorc         php.nanorc       
 [scopatz / nanorc]: https://github.com/scopatz/nanorc
 
 apacheconf.nanorc  css.nanorc      groff.nanorc  man.nanorc       patch.nanorc  python.nanorc  sh.nanorc
-asm.nanorc         cython.nanorc   html.nanorc   markdown.nanorc  perl.nanorc   Readme.rst     tex.nanorc
-c.nanorc           fortran.nanorc  java.nanorc   mutt.nanorc      php.nanorc    reST.nanorc    xml.nanorc
-conf.nanorc        gentoo.nanorc   lua.nanorc    nanorc.nanorc    pov.nanorc    ruby.nanorc
+asm.nanorc         cython.nanorc   html.nanorc   markdown.nanorc  perl.nanorc   tex.nanorc     c.nanorc           
+fortran.nanorc     java.nanorc     mutt.nanorc   php.nanorc       reST.nanorc   xml.nanorc     conf.nanorc        
+gentoo.nanorc      lua.nanorc      nanorc.nanorc pov.nanorc       ruby.nanorc
 
 ### files found 'round the net (see the file for more info) ###
 
 markdown.nanorc    txt2tags.nanorc
+
+## this is the end ##
+
+that's it, have fun & dont hurt yourself!!
