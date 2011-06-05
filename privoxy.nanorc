@@ -1,0 +1,41 @@
+syntax "privoxycfg" "(\.|/|)privoxy/config$"
+color brightwhite "[0-9]"
+color cyan "^[[:space:]]*[.a-z0-9-]*"
+color brightgreen "\ 1"
+color brightwhite "1[0-9]"
+color brightblue "\ \/.*$"
+color brightred "\ 0"
+color magenta "http:.*$"
+
+# important config settings without which it may not work the way You want it to :)
+color yellow "(listen-address|forward|accept-intercepted-requests)"
+
+# comments 
+color green "#.*$"
+
+#######################################
+syntax "privoxyaction" "(\.|/|).action$"
+
+color brightyellow start="\{" end="\}"
+color cyan "(\+|\-)(add-header|block|client-header-(filter|tagger)|content-type-overwrite|crunch-(client-header|if-none-match|server-header))"
+color cyan "(\+|\-)(deanimate-gifs|downgrade-http-version|fast-redirects|filter|force-text-mode|forward-override|handle-as-empty-document)"
+color cyan "(\+|\-)(hide-(accept-language|content-disposition|forwarded-for-headers|from-header|if-modified-since|refe(r|rr)er|user-agent))"
+color cyan "(\+|\-)(handle-as-image|inspect-jpegs|limit-connect|overwrite-last-modified|prevent-compression|server-header-(filter|tagger))"
+color cyan "(\+|\-)(session-cookies-only|set-image-blocker|crunch-(outgoing|incoming)-cookies|kill-popups|redirect|send(-|-vanilla-)wafer)"
+
+color yellow "\{\{(settings|alias)\}\}"
+# comments 
+color green "#.*$"
+color brightwhite "##.*$"
+color brightgreen "#-.*$"
+
+#######################################
+#syntax "privoxytemplate" "/etc/privoxy/templates/(\.|/|)"
+#color white "^.+$"
+#color green  start="<" end=">"
+#color cyan   "<[^> ]+"
+#color cyan   ">"
+#color yellow start="<!DOCTYPE" end="[/]?>"
+#color yellow start="<!--" end="-->"
+#color red    "&[^;]*;"
+

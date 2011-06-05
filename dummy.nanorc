@@ -1,0 +1,40 @@
+##########################################################################
+##########################################################################
+#
+#
+# D U M M Y Ruleset
+#
+#
+# If you want to create your own rules you can use this simple example:
+#
+# syntax "Dummy" "(\.|/|)foo$"  -> this creates the ruleset "Dummy" and it
+#               matches all filenames ending with foo
+#      "foo"         -> this matches foo exactly
+#      "foo.*$"   -> this matches files beginning with foo
+#
+#
+#
+# After you selected the files you can define rulesets for this file:
+#
+#
+# color blue "#.*$"      -> colors all after "#" blue on this line
+# color red "\@"      -> colors all "@" red, \ means to handle it _not_
+#               as a special sign
+# color yellow "\<(profi)\>"   -> colors only the word profi yellow
+# color yellow "profi"      -> colors all strings "profi" yellow, also in
+#               profile
+# color black "[0-9]"      -> colors all numbers black
+# color magenta "'(\\.|[^'])*'" -> colors all between ' and ' magenta,
+#               but only on the same line
+# color red "[A-Z0-9\_]+="      -> matches everything folowed  by =
+# color green "setenv|export"   -> matches the string setenv OR export
+# color cyan "^.*(foobar).*$"   -> colors the whole line cyan, by matching foobar
+#                                  on that line
+#
+# color brightred,blue start="<!--" end="-->"
+#
+#                               -> colors all between <!-- and --> brightred on blue
+#                                  even if there are more lines between
+#
+#
+########################################################################### 

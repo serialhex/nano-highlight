@@ -1,0 +1,19 @@
+## *.po file syntax
+##
+syntax "po" "\.po$" "\.pot$"
+color brightblue "\<(msgid|msgstr)\>"
+color brightred "\/"
+color green "#.*$"
+color red "\<fuzzy\>"
+color yellow "\<c-format\>"
+color yellow "\""
+color red  "\"\""
+color brightyellow  "\"\\n\""
+color brightmagenta "\<(Project\-Id\-Version|Report\-Msgid\-Bugs\-To|Last\-Translator|Language\-Team|charset)\>"
+color cyan "\<(POT\-Creation\-Date|PO\-Revision\-Date|MIME\-Version|Content\-Type|Content\-Transfer\-Encoding)\>"
+color yellow "\<(Copyright|(C))\>"
+color yellow "[0-9]"
+color brightyellow "\<(UTF|ISO|Windows|Mac|IBM)\>\-[0-9]"
+color red "#~.*$"
+
+

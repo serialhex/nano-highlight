@@ -1,0 +1,12 @@
+###  etc/passwd
+syntax "passwd" "(\.|/|)passwd$" "(\.|/|)shadow$"
+color white ".*$"
+color blue "\:.*$"
+color yellow "\:*\:"
+color cyan "/.*$"
+color red "/bin/false"
+color brightred "root"
+color brightgreen "/bin/.*sh"
+color white "[0-9]"
+color magenta "\:\/.*\:"
+

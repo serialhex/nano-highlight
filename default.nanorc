@@ -1,0 +1,5 @@
+syntax "default"
+color green "^#.*" 
+color brightgreen "^##.*"
+color yellow "^###.*"
+#color green "^[ \t]*#.*

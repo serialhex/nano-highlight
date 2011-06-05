@@ -1,0 +1,10 @@
+
+syntax "havp" "havp.config$"
+color brightred "REMOVETHISLINE" 
+color red "(deleteme|false)"
+color brightgreen "true"
+color brightwhite "[0-9]"
+color yellow "\ \/.*$"
+color brightyellow "--[a-z]*"
+color cyan "^[[:space:]]*[.A-Z_0-9]*"
+color green "#.*$"

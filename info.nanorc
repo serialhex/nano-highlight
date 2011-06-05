@@ -1,0 +1,18 @@
+## *.Info file syntax
+##
+syntax "info" "Info.txt$"
+color green "[0-9]"
+color brightblue "\<(video|codec|bitrate|width|height|General|FileSize|Format|OveralBitRate|PlayTime)\>"
+color brightblue "\<(Video|Codec|Bitrate|BitRate|Width|Height|AspectRatio|FrameRate|Bits|SamplingRate)\>"
+color brightblue "\<(audio|channel|V(i|I)DEO|CODEC|FORMAT|B(I|i)TRATE|METHOD|R(I|i)P|AUD(I|i)O|RESOLUT(I|i)ON|GENRE)\>"
+color brightblue "\<(Audio|Channel|Sound|ASPECT|RAT(i|I)O|MOV(I|i)E|S(i|I)ZE|RUNT(I|i)ME)\>"
+color magenta "Movie.*$"
+color blue "\<(KHz|kHz|Kbps|fps|MB|KB|channels|MiB|min|kbit\/s|Min)\>"
+color brightyellow "\<(DivX|XviD|MPEG\-4|AAC\ LC|H\.264|LAME|NTSC|MPEG1|AVI)\>"
+color brightblack "\="
+icolor brightcyan "[.0-9A-Z_]*:"
+icolor brightyellow "http:.*$"
+
+
+
+

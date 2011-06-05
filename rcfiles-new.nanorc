@@ -1,0 +1,31 @@
+## this .rc is not meant for rcs in etc but those used in apps like wine
+syntax "rc" "\.rc$" 
+color cyan start="\{" end="\}"
+color brightgreen start="<" end=">"
+color brightyellow "(\"(\\.|[^\"])*\"|[0-9])"
+color green start="\/\*" end="\*\/"
+color yellow "(#(define|include)|LANGUAGE|FONT)"
+
+### all *rc files  ( e.g. .bashrc, inputrc, xtermcontrol .... )
+#syntax "rcfiles" "(\.|/|)rc$" "(\.|/|)control$"
+syntax "rcfiles" "((.ba|ba|c|.c)sh|input|xinit|eix|(.w|w)minet)|gtk|rc$"
+color red "'(\\.|[^'])*'"
+color blue ""(\\.|[^\"])*""
+color magenta "[A-Z0-9\_]+="
+color magenta "\<(sudo)\>"
+color cyan "\<(alias)\>"
+color brightcyan "\<(export)\>"
+color yellow "\<(shopt)\>"
+color brightred "\<(umask)\>.*$"
+color green "#.*$"
+
+## rc...
+syntax "rc2" "(wop|wget)rc$"
+color cyan "\=.*$"
+color brightgreen start="<" end=">"
+color brightyellow "[0-9]"
+icolor yellow "^[[:space:]]*[.0-9A-Z_]*[[:space:]]\="
+color brightred "[[:space:]]off"
+color brightgreen "[[:space:]]on"
+color green "#.*$"
+

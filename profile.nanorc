@@ -1,0 +1,10 @@
+### all *profile files ( ~/.bash_profile, /etc/profile)
+syntax "profiles" "(\.|/|)profile$"
+color red "'(\\.|[^'])*'"
+color blue ""(\\.|[^\"])*""
+color magenta "[a-zA-Z0-9\_]+="
+color magenta "\<(sudo)\>"
+color cyan "\<(export)\>" "\<(alias)\>"
+color brightred "\<(umask)\>.*$"
+color green "#.*$"
+

@@ -1,0 +1,20 @@
+## Here is an exmaple for apt's sources.list
+## Adapted from http://milianw.de/blog/Syntax-Highlighting-in-Nano
+## (mail@milianw.de).
+##
+syntax "apt/sources.list" "sources\.list(\.old|~)?$"
+# component
+color brightmagenta "^deb(-src)? ((http|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[-a-zA-Z0-9\._\(\) ]+\]/) [^ ]+ .+$"
+# distribution
+color brightred "^deb(-src)? ((http|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[-a-zA-Z0-9\._\(\) ]+\]/) [^ ]+"
+# URI
+color brightgreen "(http|file|ftp):/[^ ]+"
+# cdroms
+# [^\]] does not work...
+color brightgreen "cdrom:\[[-a-zA-Z0-9\._\(\) ]+\]/"
+# deb / deb-src
+color yellow "^deb"
+color yellow "^deb-src"
+# comments
+color brightblue "#.*"
+

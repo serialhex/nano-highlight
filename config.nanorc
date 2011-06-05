@@ -1,0 +1,7 @@
+### several config files
+syntax "config" "(\.|/|)config$" "(\.|/|)logout$" "(\.|/|)COLORS$" "(\.|/|)colors$"
+color red "/.*$" "TERM" "\..*$" "=.*$" "\*.*$"
+color white ":unscaled" "[0-9]"
+color blue "setenv|export" "\;"
+color green "#.*$"
+

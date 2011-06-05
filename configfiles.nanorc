@@ -1,0 +1,18 @@
+### all *conf files  (e.g. make.conf, xorg.conf, grub.conf, make.globals, Xfce files...)
+syntax "configfiles" "(\.|/|)conf$" "(\.|/|)ample$" "(\.|/|)globals$" "xfce.*$" "syslog-ng" "sudoers"
+color brightwhite "\<(alias)\>"
+color blue "<(\\.|[^'])*>"
+color magenta "[a-zA-Z0-9\_]+="
+color white ">(\\.|[^'><])*</"
+color green "//.*$"
+color red ""(\\.|[^\"])*""
+color red "title.*$" "\<(server)\>" "\<(logfile)\>" "\<(driftfile)\>" "\<(restrict)\>"
+color white ":unscaled" "http\:\/\/" "ftp\:\/\/" "rsync\:\/\/"
+color magenta "'(\\.|[^'])*'"
+color brightwhite "[0-9]"
+color brightwhite "[<>]"
+color magenta "Section" "EndSection" "SubSection" "EndSubSection"
+color red "\<(root)\>"
+color brightred,blue "^.*-->" start="<!--.*" end="$"
+color green "#.*$" start="<!--" end="-->"
+

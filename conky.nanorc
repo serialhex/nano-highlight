@@ -1,0 +1,17 @@
+## Conky config highlighting
+##
+syntax "Conky" ".conkyrc$"
+color brightblue "(use_spacer|background|use_xft|xftfont|xftalpha)"
+color brightblue "(mail_spool|update_interval|own_window)"
+color brightblue "(double_buffer|minimum_size)"
+color brightblue "(draw_(outline|borders|shades)|stippled_borders)"
+color brightblue "border_(margin|width)"
+color brightblue "default_((shade_|outline_)?color)"
+color brightblue "(alignment|gap_x|gap_y|no_buffers|uppercase)"
+color brightblue "^TEXT[[:space:]]*$"
+color brightred "[[:space:]]+(yes|no)[[:space:]]*"
+color brightred "(top_left|top_right|bottom_left|bottom_right)[[:space:]]*$"
+color magenta "[[:space:]]+([[:space:]]*([0-9]\.?))+[[:space:]]*"
+color brightred "\$\{?[a-zA-Z_0-9\# ]+\}?"
+color green "^[[:space:]]*#.*"
+color white "[[:space:]]+\#[0-9A-Fa-f]{6}" 

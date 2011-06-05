@@ -1,0 +1,9 @@
+### more config files
+syntax "config2" "(\.|/|)env$" "(\.|/|)server.$" "hosts" "gpm" "local.*$" "bootsplash" "crypto-loop"
+color red "/.*$" "http\:\/\/.*$"
+color white ":unscaled"
+color blue "setenv|export"
+color brightwhite "[0-9]"
+color green "#.*$"
+color white "http\:\/\/" "ftp\:\/\/" "rsync\:\/\/" 
+

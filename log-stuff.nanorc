@@ -1,0 +1,45 @@
+## to have logs interpreted for you in just about 1000 ways use log analyzers
+## this only helps in viewing them directly
+
+## TODO
+# getdelta, others...
+
+syntax "logs" "midentd.log$" "mldonkey.log$"
+color brightwhite "[0-9]"
+color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"
+color blue "[0-9][0-9][0-9][0-9]"
+color cyan "\].*$"
+color brightblack start="\[" end="\]"
+
+syntax "emergelog" "emerge.log$"
+color brightwhite "[0-9]"
+color yellow ">>>.*$"
+color cyan "\*\*\*.*$"
+color magenta "\:\:\:.*$"
+color green start="\(" end="\)"
+color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"
+color blue "[0-9][0-9][0-9][0-9]"
+icolor red "^[[:space:]]*[.0-9A-Z_]*:"
+
+syntax "ntplog" "ntp.log$"
+icolor red "^[[:space:]]*[.0-9A-Z_]*:"
+color brightwhite "[0-9]"
+color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"
+color cyan "\].*$"
+color brightblack start="\[" end="\]"
+
+syntax "cronlog" "cron.log$"
+color cyan "/.*$"
+color brightblue "[0-9][0-9]\-[.A-Z_]*\-[0-9][0-9]"
+color brightwhite "[0-9][0-9]\:[0-9][0-9]"
+color magenta "(FILE|USER)"
+color yellow "(pid|cmd)"
+
+syntax "miniserv" "miniserv.log$" "miniserv.error$"
+color cyan "Bad\ Request.*$"
+color brightred "Access\ denied.*$"
+color brightwhite "[0-9]"
+color green "(POST|GET|HTTP)"
+color brightred "\""
+color yellow "(\:|\+|/|\.|\-)"
+color green ".*started$"

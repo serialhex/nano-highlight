@@ -1,0 +1,33 @@
+## my own
+
+#syntax "makefile" "(m|M)akefile$" "\.mak$"
+#icolor yellow start="^[[:space:]]*[.0-9A-Z_]" end="\=[[:space:]]|\:|\:\:|\/"
+#color brightgreen "((C|CXX|LD)FLAGS)|LIBADD|LIBS|include"
+#icolor cyan start="\{" end="\}"
+#icolor cyan start="\(" end="\)"
+#color brightyellow "\$"
+#color green "#.*$"
+
+## taken form http://wiki.linuxhelp.net/index.php/Nano_Syntax_Highlighting
+
+#syntax "makefile" "^Makefile\.?"
+#color red "[:=]"
+#color magenta "\<(if|ifeq|else|endif)\>"
+#color blue "\$\{.*}"
+#color brightblue "\w+:"
+#color green "#.*$"
+
+## two of the above compiled
+syntax "makefile" "(m|M)akefile$" "\.mak$"
+#icolor yellow start="^[[:space:]]*[.0-9A-Z_]" end="\=[[:space:]]|\:|\:\:|\/"
+color brightgreen "((C|CXX|LD)FLAGS)|LIBADD|LIBS|include"
+icolor cyan start="\{" end="\}"
+icolor cyan start="\(" end="\)"
+color brightyellow "\$"
+color green "#.*$"
+
+color red "[:=]"
+color magenta "\<(if|ifeq|else|endif)\>"
+color blue "\$\{.*}"
+color brightblue "\w+:"
+color green "#.*$"

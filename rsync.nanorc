@@ -1,0 +1,7 @@
+syntax "rsync" "rsyncd.conf$"
+color cyan "(hosts|(u|g)id|pid\ file|use\ chroot|read\ only|address|max\ connections|motd\ file)"
+color cyan "(log\ format|syslog\ facility|timeout)"
+color yellow "(path|comment|exclude)"
+color brightyellow  start="\[" end="\]"
+color green "#.*$"
+

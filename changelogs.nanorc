@@ -1,0 +1,19 @@
+## Changelog file syntax
+##
+syntax "changelogs" "ChangeLog*$" "HISTORY$" "NEWS$"
+
+color green "\+"
+color red "\-"
+color brightwhite "[0-9]"
+color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"
+color blue "[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]"
+color blue "[0-9][0-9][0-9][0-9]\/[0-9][0-9]\/[0-9][0-9]"
+color blue "\<(CEST|CET|CST||CDT|EDT)\>"
+color yellow "[0-9]\..*$"
+color cyan "\*.*$"
+color brightblue "\<(pre.*$|beta.*$|rc.*$|release.*$)\>"
+color green "#.*$"
+icolor brightred "^[[:space:]]*[.0-9A-Z_]*:"
+color magenta "[.0-9A-Za-z_]*[[:space:]]*[.0-9A-Za-z_]*[[:space:]]<"
+color brightyellow  "<(\\.|[^\"])*>"
+color brightwhite "commit[[:space:]]*[.0-9A-Z_]*$"

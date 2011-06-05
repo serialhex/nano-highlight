@@ -1,0 +1,27 @@
+syntax "changelog" "ChangeLog$"
+color brightgreen "^\+.*"
+color green "^\+\+\+.*"
+color brightblue "^ .*"
+color brightred "^-.*"
+color red "^---.*"
+color red "(\d\d\s\w\+\s\d\{4\})"
+color brightyellow "^@@.*"
+color magenta "^diff.*"
+
+#syn region GentooChangeLogRelease start=/^\*/ end=/$/ contains=GentooChangeLogReleaseDate
+#syn match GentooChangeLogReleaseDate contained /(\d\d\s\w\+\s\d\{4\})/
+#syn region GentooChangeLogEntry start=/^\s\+/ end=/\n\n/
+#           \ contains=GentooChangeLogEntryDate,GentooBug
+#syn region GentooChangeLogEntryDate contained start=/\d\?\d\s\w\+\s\d\{4\}/ end=/;/
+#           \ nextgroup=GentooChangeLogEntryAuthor,GentooChangeLogEntryEmail skipwhite skipnl
+#syn region GentooChangeLogEntryAuthor contained start=/\S/ end=/\( <\)\@=/
+#           \ nextgroup=GentooChangeLogEntryEmail skipwhite skipnl
+#syn match  GentooChangeLogEntryEmail contained /<\?[a-zA-Z0-9\.\-\_]\+@[a-zA-Z0-9\.\-\_]\+>\?/
+#           \ nextgroup=GentooChangeLogFiles skipwhite skipnl
+#syn region GentooChangeLogFiles contained start=/\(\S\)\@=/ end=/:/
+#           \ contains=GentooChangeLogAddFile,GentooChangeLogDelFile,GentooChangeLogModFile
+#" Add / delete / changed files
+#syn region GentooChangeLogAddFile contained start=/+/ end=/\([,:]\)\@=/
+#syn region GentooChangeLogDelFile contained start=/-/ end=/\([,:]\)\@=/
+#syn region GentooChangeLogModFile contained start=/[a-zA-Z0-9]/ end=/\([,:]\)\@=/
+

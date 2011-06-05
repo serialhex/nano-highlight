@@ -1,0 +1,5 @@
+syntax "nscd" "nscd.conf$"
+color cyan "(passwd|group|hosts)"
+color yellow "([0-9]|yes)"
+color green "#.*$"
+

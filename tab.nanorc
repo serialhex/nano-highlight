@@ -1,0 +1,12 @@
+### all *tab files ( e.g. fstab, crontab, inittab )
+syntax "fstab" "(\.|/|)tab$"
+color magenta "\<(none)\>.*$" "\<(wait)\>" "\<(respawn)\>"
+color red "/dev/hd.*$" "\<(ctrlaltdel)\>" "\<(initdefault)\>"
+color blue "/dev/sr.*$" "/dev/cd.*$" "\/sbin.*$"
+color cyan "/dev/sd.*$"
+color brightcyan "^.*(nfs|smbfs).*$"
+color yellow "/dev/fd.*$"
+color red "root"
+color brightwhite "[0-9]"
+color green "#.*$"
+

@@ -1,0 +1,42 @@
+## Apache httpd.conf highlighting
+##
+#how to add sites-enabled files?  "default" is too generic to keep in here I think
+syntax "vhost" "(\.|/|)vhost\.conf"
+color brightwhite "(ServerRoot|(Lock|Pid)File|Timeout|(Max)?KeepAlive(Requests|Timeout)?)"
+color brightwhite "(User|Group|LogFormat|ErrorLog|Include|(Script)?Alias)"
+color brightwhite "(ErrorDocument|AccessFileName|UseCanonicalName|TypesConfig|DefaultType)"
+color brightwhite "(HostnameLookups|IndexOptions|(Readme|Header)Name|LanguagePriority)"
+color brightwhite "(AddIcon(ByEncoding|ByType)?|DefaultIcon|IndexIgnore|BrowserMatch)"
+color brightwhite "(Add(Encoding|Language|(Default)?Charset|Type|Handler)|DirectoryIndex)"
+color brightwhite "(DocumentRoot|Server(Admin|Signature)|LogLevel|CustomLog)"
+color brightwhite "((Force)?LanguagePriority|NameVirtualHost)"
+color brightyellow "(SetHandler|Order|Deny|Allow|SetOutputFilter)"
+color yellow "(AllowOverride|FileInfo|AuthConfig|Limit)"
+color yellow "([^A-Z0-9a-z]Options|Indexes|(\+|\-)?SymLinksIfOwnerMatch)"
+color yellow "(Includes(NoExec)?|(\+|\-)?MultiViews)"
+color yellow "(None|allow,deny|deny,allow|(allow)? from (all)?|Prefer|Fallback)"
+color yellow "(Add(Handler|OutputFilter)|NumServers|AcceptMutex)"
+color yellow "((Min|Max)Spare(Threads|Servers)|Start(Threads|Servers))"
+color yellow "(MaxClients|(Max)?ThreadsPerChild|MaxRequestsPerChild)"
+color yellow "(FancyIndexing|VersionSort|ExecCGI|FollowSymLinks)"
+color brightred "(On|Off)[[:space:]]*$"
+color brightred "[[:space:]]+(debug|info|notice|warn|error|crit|alert|emerg)[[:space:]]*$"
+color brightred "[[:space:]]+(combined|common|referer|agent)[[:space:]]*$"
+color brightred "[[:space:]]+(redirect\-carefully|nokeepalive)[[:space:]]*"
+color brightred "[[:space:]]+(force\-response\-1\.0)[[:space:]]*"
+color brightred "[[:space:]]+(downgrade\-1\.0)[[:space:]]*"
+color brightred "[[:space:]]+application/[a-zA-Z\-]+[[:space:]]*"
+color brightred "[[:space:]]+type-map[[:space:]]*"
+color magenta "[[:space:]]+[0-9]+[[:space:]]*"
+color magenta "(/)?(2[0-5]{2}|1[0-9]{2}|[1-9][0-9]|[1-9])(\.(2[0-5]{2}|1[0-9]{2}|[1-9][0-9]|[0-9])){3}([[:space:]]+::(2[0-5]{2}|1[0-9]{2}|[1-9][0-9]|[0-9])/(2[0-5]{2}|1[0-9]{2}|[1-9][0-9]|[0-9]))?"
+color brightcyan start="<" end=">"
+color white ""(\\.|[^\"])*""
+# Unix-based paths
+# can't use \] in the regex for some reason?!? Maybe a bug?
+# this is preventing a 100% "to the end of the line" match for a few
+# lines (the trailing characters from ] to the EOL are not highlighted.
+# if anyone knows how to make it work, let me know.. ;)
+color white "[[:space:]]+(/[/\[\^#A-Za-z0-9\.\*\_\-]+)+"
+color green "^[[:space:]]*#.*" 
+color cyan "\<(ServerName|Serveralias|DocumentRoot|DirectoryIndex|ErrorLog|CustomLog)\>"
+

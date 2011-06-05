@@ -1,0 +1,10 @@
+## Xdefaults
+syntax "Xdefaults" "(\.|/|)default.$" "(\.|/|)resource.$" "fonts.alias"
+color magenta "XTerm"
+color cyan "Rxvt"
+color white "\*(\\.|[^'])*\:"
+color brightblue "\<(true)\>"
+color brightred "\<(false)\>"
+color brightwhite "[0-9]"
+color green "!.*$" "#.*$"
+

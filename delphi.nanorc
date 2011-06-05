@@ -1,0 +1,7 @@
+syntax "Delphi Source" "\.pas$"
+color brightcyan "\<(boolean|byte|char|double|float|integer|long|new|short|this|transient|void)\>"
+color brightred "\<(break|case|catch|continue|default|do|else|finally|for|if|then|return|switch|throw|try|while|function)\>"
+#color cyan "\<(abstract|unit|class|extends|final|implements|import|instanceof|interface|native|package|private|protected|public|static|strictfp|super|$color brightyellow "\<(until|repeat|var|uses|type|begin|end|const)\>"
+color magenta "\<(true|false|null|procedure)\>"
+color brightblue "//.*"
+color brightblue start="\{" end="\}"

@@ -1,0 +1,130 @@
+## Here is an example for Paludis control files
+##
+
+syntax "bashrc" "bashrc$"
+## Base text:
+color brightblack "^.+$"
+## sh syntax:
+color brightwhite "\<(case|do|done|elif|else|esac|exit|fi|for|function|if|in|local|read|return|select|shift|then|time|until|while)\>"
+icolor magenta "(.+\)|\[.+\])"
+color brightwhite "(\{|\}|\(|\)|\;|\]|\[|`|\\|\$|<|>|!|==|&|\|)"
+color brightwhite "-[Ldefgruwx]\>"
+color brightwhite "-(eq|ne|gt|lt|ge|le|s|n|z)\>"
+color brightblue "\<(cat|cd|chmod|chown|cp|echo|env|export|grep|install|let|ln|make|mkdir|mv|rm|sed|set|tar|touch|umask|unset)\>"
+icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
+color ,green "[[:space:]]+$"
+color green "\".*\""
+color brightwhite "case[[:space:]]\".+\""
+color brightgreen "\$\{.+\}"
+## Package name:
+color brightmagenta "\$\{PN\}"
+## Keywords:
+color brightwhite "(CHOST|CFLAGS|CXXFLAGS|MAKEOPTS)="
+color white "(SKIP_FUNCTIONS|PATH|CCACHE_SIZE|CCACHE_DIR|PALUDIS_USE_SAFE_RESUME)="
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"
+
+syntax "license-use" "(licenses|use)\.conf$"
+## Base text:
+color brightblack "^.+$"
+## Package name:
+color brightblue "/.*[[:space:]]"
+## Categories:
+color cyan "^.*/"
+## Version number:
+color white "-[[:digit:]]+(\.|[[:digit:]]|-.)*([[:space:]]|::)"
+## Repository name:
+color magenta "::.*[[:space:]]"
+## licenses and use:
+color green "[[:space:]][^[:space:]]*"
+color red "[[:space:]]-[^[:space:]]*"
+## Masking regulators:
+color brightred "^(<|<=|=|>=|>)*"
+color brightwhite "^(<|<=|=|>=|>)"
+## Additional variables:
+color brightgreen "(ALSA_CARDS|INPUT_DEVICES|LANGUAGE|LINGUAS|VIDEO_CARDS|PALUDIS_HOOKS):?"
+## Mark lines with spaces at end of it:
+color brightred ".*[[:space:]]$"
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"
+
+syntax "keywords" "keywords\.conf$"
+## Base text:
+color brightblack "^.+$"
+## Package name:
+color brightblue "/.*[[:space:]]"
+## Categories:
+color cyan "^.*/"
+## Version number:
+color white "-[[:digit:]]+(\.|[[:digit:]]|-.)*([[:space:]]|::)"
+## Repository name:
+color magenta "::.*[[:space:]]"
+## Accepted arches:
+color green "[[:space:]][~]?(alpha|amd64|arm|hppa|ia64|mips|ppc|ppc64|s390|sh|sparc|x86|x86-fbsd|\*)"
+color red "-\*"
+## Masking regulators:
+color brightred "^(<|<=|=|>=|>)*"
+color brightwhite "^(<|<=|=|>=|>)"
+## Mark lines with spaces at end of it:
+color brightred ".*[[:space:]]$"
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"
+
+syntax "mask-unmask" "package_(mask|unmask)\.conf$"
+## Base text:
+color brightblack "^.+$"
+## Package name:
+color brightblue "/.*"
+## Categories:
+color cyan "^.*/"
+## Version number:
+color white "-[[:digit:]]+(\.|[[:digit:]]|-.)*($|::)"
+## Repository name:
+color magenta "::.*$"
+## Masking regulators:
+color brightred "^(<|<=|=|>=|>)*"
+color brightwhite "^(<|<=|=|>=|>)"
+## Mark lines with spaces at end of it:
+color brightred ".*[[:space:]]$"
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"
+
+syntax "mirrors" "mirrors\.conf$"
+## Base text:
+color red "^.+$"
+## Serwer name:
+color brightwhite "^.*[[:space:]]"
+## Adress
+color brightblue "[[:space:]](ftp://|http://).*$"
+## Mark lines with spaces at end of it:
+color brightred ".*[[:space:]]$"
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"
+
+syntax "repositories" "repo"
+## Base text:
+color brightblack "^.+$"
+## Parameters:
+color magenta "=[[:space:]].+$"
+color brightwhite "^.*[[:space:]]=[[:space:]]"
+## Path:
+color green "/.+"
+color brightgreen "\$\{.*\}"
+## Adress:
+color brightblue "(svn\+https|svn\+http|http|rsync)://.*$"
+## Mark lines with spaces at end of it:
+color brightred ".*[[:space:]]$"
+## Comments:
+color brightred "#.*$"
+color yellow "^#.*$"
+color brightyellow "^##[[:space:]].*$"

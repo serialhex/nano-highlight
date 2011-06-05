@@ -1,0 +1,11 @@
+### all *desc files ( e.g. use.desc, use.local.desc )
+syntax "use" "(\.|/|)desc$"
+color green ".*\-"
+color white "\:.*$"
+color white "\-.*$"
+color magenta "\:(\\.|[^'])*\-"
+color blue "\-(\\.|[^'])*\:"
+color yellow "\/(\\.|[^'])*\:"
+color red "x86" "http\:\/\/.*$"
+color brightred "\!\!(\\.|[^'])*\!\!" "DO NOT SET THIS FLAG YOURSELF!"
+color green "#.*$" 

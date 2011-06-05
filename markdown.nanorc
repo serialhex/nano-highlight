@@ -1,0 +1,32 @@
+## http://daringfireball.net/projects/markdown/syntax
+syntax "markdown" "\.txt$" "\.text$" "\.md$" "\.markdown$"
+# Quotations
+color cyan "^>.*"
+# Emphasis
+color green "_.*_"
+color green "\*.*\*"
+# Strong emphasis
+color brightgreen "\*\*.*\*\*"
+color brightgreen "__.*__"
+# Underline headers
+color brightblue "^====(=*)"
+color brightblue "^----(-*)"
+# Hash headers
+color brightblue "^#.*"
+# Linkified URLs (and inline html tags)
+color brightmagenta start="<" end=">"
+# Links
+color brightmagenta "\[.*\]\(.*\)"
+# Reference-style links
+color brightmagenta "\[.*\]( )?\[.*\]"
+# Link id's:
+color brightmagenta "^\[.*\]:( )+.*"
+# Code spans
+color brightyellow "`.*`"
+# Code blocks
+color brightyellow "^(    ).*"
+# Inline images
+color brightmagenta "!\[.*\]\(.*\)"
+# Reference-style images
+color brightmagenta "!\[.*\]\[.*\]"
+
