@@ -1,3 +1,5 @@
+## found: http://lists.gnu.org/archive/html/help-nano/2006-08/msg00000.html
+## edited by serialhex
 ## http://daringfireball.net/projects/markdown/syntax
 syntax "markdown" "\.txt$" "\.text$" "\.md$" "\.markdown$"
 # Quotations
