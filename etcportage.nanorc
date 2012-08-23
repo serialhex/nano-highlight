@@ -1,4 +1,3 @@
-Code: /etc/portage/*
 ## Here is an example for Portage control files
 ##
 syntax "/etc/portage" "\.(keywords|mask|unmask|use)(/.+)?$"
