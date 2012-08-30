@@ -3,7 +3,11 @@
 syntax "haskell" "\.hs$"
 color green "(\||@|!|:|_|~|=|\\|;|\(|\)|,)"
 color magenta "(True|False|==|/=|&&|\|\||<|>|<=|>=)"
-color green "(->|<-|!)" color red 
-"[\n\t](as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)[ 
-\n\t]" color brightblue "'.'" color brightblue "'\\[ntfr]'" color brightblue ""[^\"]*""
-## Comment highlighting color brightblack "--.*" color brightblack start="\{-" end="-\}"
+color green "(->|<-|!)"
+color red "[\n\t](as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)[ \n\t]"
+color brightblue "'.'"
+color brightblue "'\\[ntfr]'"
+color brightblue ""[^\"]*""
+## Comment highlighting
+color brightblack "--.*"
+color brightblack start="\{-" end="-\}"
