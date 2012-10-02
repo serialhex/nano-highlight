@@ -33,4 +33,4 @@ color blue "'(\\.|[^\'])*'"
 color cyan start="[$@%]" end="([[:alnum:]]|_)*"
 
 # Comments
-color brightblack "#.*$"
+color green "#.*$"
