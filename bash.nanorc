@@ -30,7 +30,7 @@ color blue "\"(\\.|[^\"])*\""
 color blue "'(\\.|[^\"])*'"
 
 # Variables, keep it below the strings, such that vars are highlighted inside strings.
-color cyan start="[$@%]" end="[[:alnum:]]*"
+color cyan start="[$@%]" end="([[:alnum:]]|_)*"
 
 # Comments
 color brightblack "#.*$"
