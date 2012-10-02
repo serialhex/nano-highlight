@@ -27,7 +27,7 @@ color red "\<(aclocal|aconnect|aplay|apm|apmsleep|apropos|ar|arecord|as|as86|aut
 
 # Strings
 color blue "\"(\\.|[^\"])*\""
-color blue "'(\\.|[^\"])*'"
+color blue "'(\\.|[^\'])*'"
 
 # Variables, keep it below the strings, such that vars are highlighted inside strings.
 color cyan start="[$@%]" end="([[:alnum:]]|_)*"
