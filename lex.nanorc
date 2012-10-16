@@ -1,5 +1,5 @@
 ## Syntax highlighting for lex/flex input files
-syntax "lex" "\.l$"
+syntax "lex" "\.(l|lex|flex)$"
 color red "%[^[[:space:]]]*"
 ## String highlighting.  You will in general want your comments and
 ## strings to come last, because syntax highlighting rules will be
