@@ -1,0 +1,28 @@
+syntax "coffee" "\.coffee$"
+## Decimal, octal and hexadecimal numbers.
+color red "\<[-+]?([1-9][0-9]*|0[0-7]*|0x[0-9a-fA-F]+)([uU][lL]?|[lL][uU]?)?\>"
+
+## Floating-point numbers.
+color red "\<[-+]?([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([EePp][+-]?[0-9]+)?[fFlL]?"
+color red "\<[-+]?([0-9]+[EePp][+-]?[0-9]+)[fFlL]?"
+
+## Keywords and punctuation of similar purpose.
+color brightblue "\<(break|case|catch|continue|default|delete|do|else|finally)\>"
+color brightblue "\<(and|by|class|do|extends|for|function|if|isnt|is|in|instanceof|new|null|of|return|switch)\>"
+color brightblue "\<(switch|this|throw|try|typeof|until|undefined|var|void|while|when|with)\>"
+color brightblue "(->|=|\.\.|<|>|\|\|&&|!)"
+
+## Type specifiers and special types.
+color magenta "\<(Array|Boolean|Date|Enumerator|Error|Function|Math)\>"
+color magenta "\<(Number|Object|RegExp|String)\>"
+color magenta "\<(true|yes|on|false|off|no)\>"
+
+## Strings.
+color green "L?\"(\\"|[^"])*\""
+color green "L?'(\'|[^'])*'"
+
+## Escapes.
+color red "\\[0-7][0-7]?[0-7]?|\\x[0-9a-fA-F]+|\\[bfnrt'"\?\\]"
+
+## Comments.
+color cyan "#\ .*$"
