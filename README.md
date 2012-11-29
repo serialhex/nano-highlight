@@ -87,6 +87,10 @@ gentoo.nanorc      lua.nanorc      nanorc.nanorc pov.nanorc       ruby.nanorc
 
 markdown.nanorc    txt2tags.nanorc
 
+### files from [aaronhamilton / coffeescript-nano][] ###
+
+coffee.nanorc
+
 ## this is the end ##
 
 that's it, have fun & dont hurt yourself!!
