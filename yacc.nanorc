@@ -1,0 +1,14 @@
+## Syntax highlighting for yacc/bison input files
+syntax "yacc" "\.y$"
+color red "%[a-zA-Z0-9]*"
+## String highlighting.  You will in general want your comments and
+## strings to come last, because syntax highlighting rules will be
+## applied in the order they are read in.
+color brightyellow "<[^=        ]*>" ""(\\.|[^"])*""
+## This string is VERY resource intensive!
+color brightyellow start=""(\\.|[^"])*\\[[:space:]]*$" end="^(\\.|[^"])*""
+## Comments
+color brightblue start="/\*" end="\*/"
+## Visible space at line ends
+color green,green "[[:space:]]+$"
+
