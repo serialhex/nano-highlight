@@ -4,7 +4,7 @@
 #
 # Version 1.1
 
-syntax "bash" "\.sh$"
+syntax "bash" "\.sh$" "\.bash$"
 header "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
 
 # Some Bash syntax first
