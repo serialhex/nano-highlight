@@ -1,5 +1,3 @@
-## Here is an example for PHP
-##
 syntax "php" "\.php[2345s~]?$"
 
 ## php markings
@@ -23,8 +21,6 @@ color brightyellow "<[^=       ]*>" ""(\.|[^"])*""
 ## comments
 color brightblue "//.*"
 color brightblue start="/\*" end="\*/"
-#color blue start="<" end=">"
-#color red "&[^;[[:space:]]]*;"
 
 ## Trailing whitespace
 color ,green "[[:space:]]+$"
