@@ -1,0 +1,11 @@
+## Syntax highlighting for lex/flex input files
+syntax "lex" "\.(l|lex|flex)$"
+color red "%[^[[:space:]]]*"
+## String highlighting.  You will in general want your comments and
+## strings to come last, because syntax highlighting rules will be
+## applied in the order they are read in.
+color brightyellow "<[^=        ]*>" ""(\\.|[^"])*""
+## This string is VERY resource intensive!
+color brightyellow start=""(\\.|[^"])*\\[[:space:]]*$" end="^(\\.|[^"])*""
+## Comments
+color brightblue start="/\*" end="\*/"
