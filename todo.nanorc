@@ -1,0 +1,14 @@
+## highlighting for simple todo files where the following ascii art is used:
+## [ ] open
+## [√] done
+## [~] in progress
+## [x] failed or canceled
+## [B] blocked
+## by Nikolas Mayr - there is no link yet - do a web search
+
+syntax "ascii art todo" "todo\.txt$"
+color green  "\[√\]"
+color yellow "\[~.*"
+color red    "\[x\]"
+color cyan   "\[B.*"
+
