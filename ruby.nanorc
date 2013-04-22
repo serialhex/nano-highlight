@@ -1,4 +1,4 @@
-## Here is an example for Ruby.
+## Ruby.
 ##
 syntax "ruby" "\.rb$"
 ## Asciibetical list of reserved words

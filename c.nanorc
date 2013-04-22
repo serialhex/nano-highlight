@@ -1,4 +1,4 @@
-## Here is an example for C/C++.
+## C/C++.
 ##
 syntax "c" "\.(c(c|pp|xx)?|C)$" "\.(h(h|pp|xx)?|H)$" "\.ii?$"
 color brightred "\<[A-Z_][0-9A-Z_]+\>" 

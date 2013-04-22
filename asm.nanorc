@@ -1,4 +1,4 @@
-## Here is an example for assembler.
+## assembler.
 ##
 syntax "asm" "\.(S|s|asm)$"
 color red "\<[A-Z_]{2,}\>"

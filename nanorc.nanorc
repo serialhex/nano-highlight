@@ -1,4 +1,4 @@
-## Here is an example for nanorc files.
+## nanorc.
 ##
 syntax "nanorc" "\.?nanorc$"
 ## Possible errors and parameters
