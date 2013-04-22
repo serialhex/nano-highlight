@@ -1,4 +1,4 @@
-## Here is an example for manpages.
+## manpages.
 ##
 syntax "man" "\.[1-9]x?$"
 color green "\.(S|T)H.*$"

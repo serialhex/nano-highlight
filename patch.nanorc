@@ -1,4 +1,4 @@
-## Here is an example for patch files.
+## patch files.
 ##
 syntax "patch" "\.(patch|diff)$"
 color brightgreen "^\+.*"

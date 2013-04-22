@@ -1,4 +1,4 @@
-## Here is an example for Python.
+## Python.
 ##
 syntax "python" "\.py$"
 icolor brightblue "def [0-9A-Z_]+"
