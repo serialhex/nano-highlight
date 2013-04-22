@@ -1,13 +1,31 @@
 ## Haskell syntax highlighting
 ## found here: http://www.wubutu.com/2011/05/syntax-highlighting-nano-ban.html
 syntax "haskell" "\.hs$"
-color green "(\||@|!|:|_|~|=|\\|;|\(|\)|,)"
-color magenta "(True|False|==|/=|&&|\|\||<|>|<=|>=)"
-color green "(->|<-|!)"
-color red "[\n\t](as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)[ \n\t]"
-color brightblue "'.'"
-color brightblue "'\\[ntfr]'"
-color brightblue ""[^\"]*""
+## language words
+color red "[ ](as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)[ ]"
+color red "(^data|^foreign|^import|^infix|^infixl|^infixr|^instance|^module|^newtype|^type)[ ]"
+color red "[ ](as$|case$|of$|class$|data$|default$|deriving$|do$|forall$|foreign$|hiding$|if$|then$|else$|import$|infix$|infixl$|infixr$|instance$|let$|in$|mdo$|module$|newtype$|qualified$|type$|where$)"
+## lang symbols
+color cyan "(\||@|!|:|_|~|=|\\|;|\(|\)|,|\[|\]|\{|\})"
+## lang operators
+color magenta "(==|/=|&&|\|\||<|>|<=|>=)"
+## lang symbols
+color cyan "(->|<-)"
+color magenta "\.|\$"
+## data types
+## color yellow "(Maybe|Double|Int|Integer|Float|Rational|Either|Char|String)"
+## data constructors
+color magenta "(True|False|Nothing|Just|Left|Right|LT|EQ|GT)"
+## data classes
+color magenta "[ ](Read|Show|Enum|Eq|Ord|Data|Bounded|Typeable|Num|Real|Fractional|Integral|RealFrac|Floating|RealFloat|Monad|MonadPlus|Functor)"
+
+## other
+## color yellow "'\\[ntfr]'"
+
+## strings
+color yellow ""[^\"]*""
 ## Comment highlighting
-color brightblack "--.*"
-color brightblack start="\{-" end="-\}"
+color green "--.*"
+color green start="\{-" end="-\}"
+
+color brightred "undefined"
