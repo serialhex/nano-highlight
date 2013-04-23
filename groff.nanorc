@@ -1,4 +1,4 @@
-## Here is an example for groff.
+## groff.
 ##
 syntax "groff" "\.m[ems]$" "\.rof" "\.tmac$" "^tmac."
 ## The argument of .ds or .nr

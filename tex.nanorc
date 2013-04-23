@@ -1,4 +1,4 @@
-## Here is a short example for TeX files.
+## TeX.
 ##
 syntax "tex" "\.tex$"
 icolor green "\\.|\\[A-Z]*"

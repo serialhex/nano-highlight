@@ -1,4 +1,4 @@
-## Here is an example for Java.
+## Java.
 ##
 syntax "java" "\.java$"
 color green "\<(boolean|byte|char|double|float|int|long|new|short|this|transient|void)\>"

@@ -1,4 +1,4 @@
-## Here is an example for POV-Ray.
+## POV-Ray.
 ##
 syntax "pov" "\.(pov|POV|povray|POVRAY)$"
 color brightcyan "^[[:space:]]*#[[:space:]]*(declare)"

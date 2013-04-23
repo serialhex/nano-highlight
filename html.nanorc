@@ -1,4 +1,4 @@
-## Here is a short example for HTML.
+## HTML.
 ##
 syntax "html" "\.html$"
 color blue start="<" end=">"
