@@ -1,5 +1,5 @@
 ###  etc/passwd
-syntax "passwd" "(\.|/|)passwd$" "(\.|/|)shadow$"
+syntax "passwd" "(\.|/)passwd$" "(\.|/)shadow$"
 color white ".*$"
 color blue "\:.*$"
 color yellow "\:*\:"

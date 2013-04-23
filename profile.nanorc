@@ -1,5 +1,5 @@
 ### all *profile files ( ~/.bash_profile, /etc/profile)
-syntax "profiles" "(\.|/|)profile$"
+syntax "profiles" "(\.|/)profile$"
 color red "'(\\.|[^'])*'"
 color blue ""(\\.|[^\"])*""
 color magenta "[a-zA-Z0-9\_]+="

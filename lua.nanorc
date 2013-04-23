@@ -50,7 +50,7 @@ color brightgreen "(\<(dofile|require|include)|%q|%!|%Q|%r|%x)\>"
 color red "\<([0-9]+)\>"
 
 # Symbols
-color brightmagenta "(\(|\)|\[|\]|\{|\})"
+color brightmagenta "(\(\)|\[|\]|\{|\})"
 
 # Strings
 #color green "\"(\\.|[^\\\"])*\"|'(\\.|[^\\'])*'"

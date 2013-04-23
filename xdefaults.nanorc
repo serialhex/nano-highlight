@@ -1,5 +1,5 @@
 ## Xdefaults
-syntax "Xdefaults" "(\.|/|)default.$" "(\.|/|)resource.$" "fonts.alias"
+syntax "Xdefaults" "(\.|/)default.$" "(\.|/)resource.$" "fonts.alias"
 color magenta "XTerm"
 color cyan "Rxvt"
 color white "\*(\\.|[^'])*\:"
