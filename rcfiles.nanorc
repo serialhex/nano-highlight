@@ -1,5 +1,5 @@
 ### all *rc files  ( e.g. .bashrc, inputrc, xtermcontrol .... )
-syntax "rcfiles" "\rc$" "(\.|/|)control$"
+syntax "rcfiles" "\rc$" "(\.|/)control$"
 color red "'(\\.|[^'])*'"
 color blue ""(\\.|[^\"])*""
 color magenta "[A-Z0-9\_]+="

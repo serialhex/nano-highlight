@@ -9,7 +9,7 @@
 #
 ##############################################################################
 
-syntax "etcxml" "/etc/fonts/(\.|/|)" "/etc/xdg/(\.|/|)"
+syntax "etcxml" "/etc/fonts/(\.|/)" "/etc/xdg/(\.|/)"
 color white "^.+$"
 color green  start="<" end=">"
 color cyan   "<[^> ]+"
