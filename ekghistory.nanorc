@@ -1,4 +1,4 @@
-syntax "ekghistory" "(\.|/|).gg/history"
+syntax "ekghistory" "(\.|/).gg/history"
 icolor cyan start="<" end=">"
 icolor green ",(\\.|[^\"])*,"
 color yellow "chatrecv"

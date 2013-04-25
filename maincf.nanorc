@@ -1,5 +1,5 @@
 ### all *cf files (e.g. main.cf, Postfix )
-syntax "maincf" "(\.|/|)cf$"
+syntax "maincf" "(\.|/)cf$"
 color magenta "\=.*$"
 color green "#.*$"
 color cyan "[A-Z0-9\_]+="

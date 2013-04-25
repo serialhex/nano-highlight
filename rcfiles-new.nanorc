@@ -1,5 +1,5 @@
 ## this .rc is not meant for rcs in etc but those used in apps like wine
-syntax "rc" "\.rc$" 
+syntax "rc" "\.rc$"
 color cyan start="\{" end="\}"
 color brightgreen start="<" end=">"
 color brightyellow "(\"(\\.|[^\"])*\"|[0-9])"
@@ -7,7 +7,7 @@ color green start="\/\*" end="\*\/"
 color yellow "(#(define|include)|LANGUAGE|FONT)"
 
 ### all *rc files  ( e.g. .bashrc, inputrc, xtermcontrol .... )
-#syntax "rcfiles" "(\.|/|)rc$" "(\.|/|)control$"
+#syntax "rcfiles" "(\.|/)rc$" "(\.|/)control$"
 syntax "rcfiles" "((.ba|ba|c|.c)sh|input|xinit|eix|(.w|w)minet)|gtk|rc$"
 color red "'(\\.|[^'])*'"
 color blue ""(\\.|[^\"])*""

@@ -1,7 +1,7 @@
 ## Apache httpd.conf highlighting
 ##
 #how to add sites-enabled files?  "default" is too generic to keep in here I think
-syntax "vhost" "(\.|/|)vhost\.conf"
+syntax "vhost" "(\.|/)vhost\.conf"
 color brightwhite "(ServerRoot|(Lock|Pid)File|Timeout|(Max)?KeepAlive(Requests|Timeout)?)"
 color brightwhite "(User|Group|LogFormat|ErrorLog|Include|(Script)?Alias)"
 color brightwhite "(ErrorDocument|AccessFileName|UseCanonicalName|TypesConfig|DefaultType)"
@@ -37,6 +37,6 @@ color white ""(\\.|[^\"])*""
 # lines (the trailing characters from ] to the EOL are not highlighted.
 # if anyone knows how to make it work, let me know.. ;)
 color white "[[:space:]]+(/[/\[\^#A-Za-z0-9\.\*\_\-]+)+"
-color green "^[[:space:]]*#.*" 
+color green "^[[:space:]]*#.*"
 color cyan "\<(ServerName|Serveralias|DocumentRoot|DirectoryIndex|ErrorLog|CustomLog)\>"
 

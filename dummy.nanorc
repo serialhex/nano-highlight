@@ -7,7 +7,7 @@
 #
 # If you want to create your own rules you can use this simple example:
 #
-# syntax "Dummy" "(\.|/|)foo$"  -> this creates the ruleset "Dummy" and it
+# syntax "Dummy" "(\.|/)foo$"  -> this creates the ruleset "Dummy" and it
 #               matches all filenames ending with foo
 #      "foo"         -> this matches foo exactly
 #      "foo.*$"   -> this matches files beginning with foo
@@ -37,4 +37,4 @@
 #                                  even if there are more lines between
 #
 #
-########################################################################### 
+###########################################################################
