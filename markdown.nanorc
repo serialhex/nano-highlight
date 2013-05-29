@@ -29,4 +29,5 @@ color brightyellow "`.*`"
 # Links and inline images
 color brightmagenta start="!\[" end="\]"
 color brightmagenta start="\[" end="\]"
-
+# Lists
+color yellow "^( )*(\*|\+|\-|[0-9]+\.) "
