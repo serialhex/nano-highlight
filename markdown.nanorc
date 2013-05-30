@@ -22,7 +22,7 @@ color brightmagenta "\[.*\](\([^\)]*\))?"
 # Link id's:
 color brightmagenta "^\[.*\]:( )+.*"
 # Code spans
-color brightyellow "`.*`"
+color brightyellow "`[^`]*`"
 # Code blocks
 # disabled, because indented lines aren't always code blocks
 # color brightyellow "^(    ).*"
