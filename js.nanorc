@@ -1,18 +1,4 @@
-### all *js files  ( e.g. Firefox user.js, prefs.js )
-
-## Old version
-
-#syntax "jsfiles" "(\.|/)js$"
-#color green "//.*$" start="\/\*" end="\*\/"
-#color blue "'(\\.|[^'])*'"
-#color red ""(\\.|[^\"])*""
-#color brightgreen "\<(true)\>"
-#color brightred "\<(false)\>" "http\:\/\/.*$"
-#color brightmagenta "[0-9](\\.|[^\"])*)"
-
-## New updated taken from http://wiki.linuxhelp.net/index.php/Nano_Syntax_Highlighting
-
-syntax "JavaScript" "\.(js)$"
+syntax "javascript" "\.js$"
 ## Default
 color white "^.+$"
 ## Decimal, cotal and hexadecimal numbers
