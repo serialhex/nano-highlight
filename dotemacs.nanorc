@@ -1,2 +1,2 @@
 syntax "dotemacs" "^.emacs$"
-color green  "^;.*"
+color green "^;.*"

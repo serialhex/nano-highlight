@@ -1,4 +1,3 @@
-### all *desc files ( e.g. use.desc, use.local.desc )
 syntax "use" "(\.|/)desc$"
 color green ".*\-"
 color white "\:.*$"
