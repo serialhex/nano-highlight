@@ -1,5 +1,3 @@
-## Python.
-##
 syntax "python" "\.py$"
 icolor brightblue "def [0-9A-Z_]+"
 color brightcyan "\<(and|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|map|not|or|pass|print|raise|return|try|while)\>"

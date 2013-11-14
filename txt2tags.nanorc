@@ -1,16 +1,3 @@
-#
-# Nano Editor syntax highlight rules for txt2tags tool
-# http://nano-editor.org        http://txt2tags.org
-#
-# Initial release by Aurelio Jargas on Nov/2003
-#
-# Install: Just append this contents to your ~/.nanorc file
-#
-#  (((-----------------)))  If you are a Nano user and want to
-#  (( MAINTAINER WANTED ))  be the official maintainer of this
-#  (((-----------------)))  file, contact verde(a)aurelio.net.
-#
-
 syntax "txt2tags"  ".*.t2t"
 color brightwhite  "\*\*.*\*\*"
 color black,white  "//.*//"

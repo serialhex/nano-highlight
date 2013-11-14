@@ -1,9 +1,3 @@
-## to have logs interpreted for you in just about 1000 ways use log analyzers
-## this only helps in viewing them directly
-
-## TODO
-# getdelta, others...
-
 syntax "logs" "midentd.log$" "mldonkey.log$"
 color brightwhite "[0-9]"
 color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"

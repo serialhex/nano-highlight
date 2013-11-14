@@ -1,4 +1,4 @@
-syntax "Apache2" "httpd.conf$"
+syntax "apache2" "httpd.conf$" "(\.|/)vhost\.conf$"
 color brightwhite "(ServerRoot|LoadModule|(Lock|Pid)File|Timeout|(Max)?KeepAlive(Requests|Timeout)?)"
 color brightwhite "(User|Group|LogFormat|ErrorLog|Include|(Script)?Alias)"
 color brightwhite "(ErrorDocument|AccessFileName|UseCanonicalName|TypesConfig|DefaultType)"

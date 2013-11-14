@@ -1,4 +1,4 @@
-syntax "bash" "\.sh$" "\.bash$"
+syntax "bash" "\.sh$" "\.bash$" "/.bash_profile$" "(\.|/)profile$" "\rc$" "(\.|/)control$"
 header "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
 
 ## Control

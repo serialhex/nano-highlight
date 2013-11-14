@@ -10,7 +10,8 @@ color green "(\{|\}|\(\)|\;|\]|\[|`|\\|\$|<|>|!|=|&)"
 color green "-(e|d|f|r|g|u|w|x|L)\>"
 color green "-(eq|ne|gt|lt|ge|le|s|n|z)\>"
 
-## Variables ... official portage ones in red, all others in bright red
+## Variables
+# NOTE: Official portage variables in red, others in bright red.
 color brightred "\$\{?[a-zA-Z_0-9]+\}?"
 color red "\<(ARCH|HOMEPAGE|DESCRIPTION|IUSE|SRC_URI|LICENSE|SLOT|KEYWORDS|FILESDIR|WORKDIR|(P|R)?DEPEND|PROVIDE|DISTDIR|RESTRICT|USERLAND)\>"
 color red "\<(S|D|T|PV|PF|P|PN|A)\>" "\<C(XX)?FLAGS\>" "\<LDFLAGS\>" "\<C(HOST|TARGET|BUILD)\>"
@@ -28,7 +29,7 @@ color brightblue "\<(doc|ins|exe)into\>" "\<f(owners|perms)\>" "\<(exe|ins|dir)o
 color blue "\<make\>" "\<(cat|cd|chmod|chown|cp|echo|env|export|grep|let|ln|mkdir|mv|rm|sed|set|tar|touch|unset)\>"
 
 ## Comments
-# NOTE: # NOTE: Not reliable.
+# NOTE: Not reliable.
 color yellow "#.*$"
 
 ## Strings

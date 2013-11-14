@@ -1,4 +1,3 @@
-### all *tab files ( e.g. fstab, crontab, inittab )
 syntax "fstab" "(\.|/)tab$"
 color magenta "\<(none)\>.*$" "\<(wait)\>" "\<(respawn)\>"
 color red "/dev/hd.*$" "\<(ctrlaltdel)\>" "\<(initdefault)\>"
