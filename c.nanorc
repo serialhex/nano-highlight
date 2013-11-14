@@ -1,5 +1,3 @@
-## C/C++.
-##
 syntax "c" "\.(c(c|pp|xx)?|C)$" "\.(h(h|pp|xx)?|H)$" "\.ii?$"
 color brightred "\<[A-Z_][0-9A-Z_]+\>" 
 color green "\<(float|double|bool|char|int|short|long|sizeof|enum|void|static|const|struct|union|typedef|extern|(un)?signed|inline)\>"
@@ -10,19 +8,17 @@ color brightyellow "\<(try|throw|catch|operator|new|delete)\>"
 color magenta "\<(goto|continue|break|return)\>"
 color brightcyan "^[[:space:]]*#[[:space:]]*(define|include|(un|ifn?)def|endif|el(if|se)|if|warning|error)"
 color brightmagenta "'([^'\]|(\\["'abfnrtv\\]))'" "'\\(([0-3]?[0-7]{1,2}))'" "'\\x[0-9A-Fa-f]{1,2}'"
-##
+
 ## GCC builtins
 color cyan "__attribute__[[:space:]]*\(\([^)]*\)\)" "__(aligned|asm|builtin|hidden|inline|packed|restrict|section|typeof|weak)__"
-##
-## String highlighting.  You will in general want your comments and
-## strings to come last, because syntax highlighting rules will be
-## applied in the order they are read in.
+
+## Strings
+# NOTE: You will in general want your comments and strings to come last, because syntax highlighting rules will be applied in the order they are read in.
 color brightyellow "<[^= 	]*>" ""(\\.|[^"])*""
-##
-## This string is VERY resource intensive!
+# NOTE: Very resource intensive.
 color brightyellow start=""(\\.|[^"])*\\[[:space:]]*$" end="^(\\.|[^"])*""
 
-## Comment highlighting
+## Comments
 color brightblue "//.*"
 color brightblue start="/\*" end="\*/"
 

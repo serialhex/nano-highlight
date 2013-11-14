@@ -1,4 +1,3 @@
-# Apache files
 syntax "apacheconf" "httpd\.conf|mime\.types|\.conf$"
 color yellow ".+"
 color brightcyan "(AcceptMutex|AcceptPathInfo|AccessFileName|Action|AddAlt|AddAltByEncoding|AddAltByType|AddCharset|AddDefaultCharset|AddDescription|AddEncoding)"

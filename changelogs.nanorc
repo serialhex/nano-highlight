@@ -1,5 +1,3 @@
-## Changelog file syntax
-##
 syntax "changelogs" "ChangeLog*$" "HISTORY$" "NEWS$"
 
 color green "\+"
@@ -8,7 +6,8 @@ color brightwhite "[0-9]"
 color brightblue "[0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]"
 color blue "[0-9][0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]"
 color blue "[0-9][0-9][0-9][0-9]\/[0-9][0-9]\/[0-9][0-9]"
-color blue "\<(CEST|CET|CST|CDT|EDT)\>"
+# NOTE: Alphabetical timezone codes are goofy, and this is hardly an exhaustive list of them.
+color blue "\<(CEST|CET|CST|CDT|EDT|UTC)\>"
 color yellow "[0-9]\..*$"
 color cyan "\*.*$"
 color brightblue "\<(pre.*$|beta.*$|rc.*$|release.*$)\>"

@@ -1,6 +1,4 @@
-## Conky config highlighting
-##
-syntax "Conky" ".conkyrc$"
+syntax "conky" ".conkyrc$"
 color brightblue "(use_spacer|background|use_xft|xftfont|xftalpha)"
 color brightblue "(mail_spool|update_interval|own_window)"
 color brightblue "(double_buffer|minimum_size)"

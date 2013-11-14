@@ -1,4 +1,3 @@
-### more config files
 syntax "config2" "(\.|/)env$" "(\.|/)server.$" "hosts" "gpm" "local.*$" "bootsplash" "crypto-loop"
 color red "/.*$" "http\:\/\/.*$"
 color white ":unscaled"
