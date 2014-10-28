@@ -1,5 +1,3 @@
-## /etc/ stuff syntax
-##
 #syntax "etcconf.d" "conf.d/(\.|/)"
 #color magenta "\".*$"
 #color blue "#.*$"
@@ -135,7 +133,6 @@ color blue "\{|\}"
 color brightblack "\="
 color green "#.*$"
 
-#this on may need fewer colors ;)
 syntax "squidconf" "squid.conf$"
 color brightyellow "(http_port|hierarchy_stoplist|maximum_object_size|cache_dir|dns_testnames)"
 color brightyellow "(coredump_dir|pipeline_prefetch|cache_mgr|visible_hostname|ftp_user|client_netmask)"
@@ -212,7 +209,6 @@ color brightblue "-.*$"
 color brightwhite "\="
 color green "#.*$"
 
-## these colors need to change...
 syntax "udevrules" "\.rules$"
 color brightwhite "[0-9]"
 color brightblack "(ACTION|SUBSYSTEM|DEVPATH|OPTIONS|WAIT_FOR_SYSFS|ENV|KERNEL|NAME|MODE|GROUP|SYMLINK|DRIVERS|PROGRAM|RUN)"
@@ -362,7 +358,6 @@ color brightred "no"
 color brightgreen "yes"
 color green "#.*$"
 
-#these look stupid if you ask me, but hey do better :P
 syntax "protocols" "protocols$"
 icolor brightgreen "[0-9][[:space:]][[:space:]]*[.A-Z0-9-]*"
 icolor brightblue "[.a-z0-9][[:space:]][[:space:]]*[.0-9]"

@@ -1,4 +1,3 @@
-
 syntax "havp" "havp.config$"
 color brightred "REMOVETHISLINE" 
 color red "(deleteme|false)"

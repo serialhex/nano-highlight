@@ -1,5 +1,3 @@
-## named.conf syntax
-##
 syntax "named" "named.conf"
 
 color brightcyan "(\{|\}|\;)"
@@ -9,6 +7,7 @@ color yellow "(type|file|allow\-update|notify)"
 color cyan "(directory|statistics\-file|forward\ first|forwarders|listen\-on\-v6|listen\-on|allow\-query)"
 color cyan "(query\-source\ address|pid\-file)"
 color brightyellow ""(\\.|[^\"])*"" "'(\\.|[^'])*'"
-## comments
+
+## Comments
 color green "#.*$"
 color green "//.*$"

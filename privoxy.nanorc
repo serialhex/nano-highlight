@@ -1,4 +1,5 @@
 syntax "privoxycfg" "(\.|/)privoxy/config$"
+
 color brightwhite "[0-9]"
 color cyan "^[[:space:]]*[.a-z0-9-]*"
 color brightgreen "\ 1"
@@ -7,13 +8,15 @@ color brightblue "\ \/.*$"
 color brightred "\ 0"
 color magenta "http:.*$"
 
-# important config settings without which it may not work the way You want it to :)
+## Important config settings
 color yellow "(listen-address|forward|accept-intercepted-requests)"
 
-# comments
+## Comments
 color green "#.*$"
 
-#######################################
+
+
+
 syntax "privoxyaction" "(\.|/).action$"
 
 color brightyellow start="\{" end="\}"
@@ -24,18 +27,8 @@ color cyan "(\+|\-)(handle-as-image|inspect-jpegs|limit-connect|overwrite-last-m
 color cyan "(\+|\-)(session-cookies-only|set-image-blocker|crunch-(outgoing|incoming)-cookies|kill-popups|redirect|send(-|-vanilla-)wafer)"
 
 color yellow "\{\{(settings|alias)\}\}"
-# comments
+
+## Comments
 color green "#.*$"
 color brightwhite "##.*$"
 color brightgreen "#-.*$"
-
-#######################################
-#syntax "privoxytemplate" "/etc/privoxy/templates/(\.|/)"
-#color white "^.+$"
-#color green  start="<" end=">"
-#color cyan   "<[^> ]+"
-#color cyan   ">"
-#color yellow start="<!DOCTYPE" end="[/]?>"
-#color yellow start="<!--" end="-->"
-#color red    "&[^;]*;"
-

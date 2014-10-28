@@ -1,4 +1,3 @@
-### even more config files ;-)
 syntax "config3" "iptables" "ntp.*$" "rsyncd" "xfs" "saslauthd" "timidity" "net.*$" "hdparm" "esound" "login.*$"
 color red "/.*$" "http\:\/\/.*$" ""(\\.|[^\"])*"" "\<(server)\>" "\<(logfile)\>""\<(driftfile)\>"
 color white ":unscaled" "http\:\/\/" "ftp\:\/\/" "rsync\:\/\/"
