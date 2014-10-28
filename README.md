@@ -37,7 +37,7 @@ then simply add the different \*.nanorc files that you want to use to your `~/.n
 	include "~/.nano/python.nanorc"
 	
 	## Bourne shell scripts
-	include "~/.nano/sh.nanorc"
+	include "~/.nano/bash.nanorc"
 	
 	## CSS
 	include "~/.nano/css.nanorc"
