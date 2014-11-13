@@ -1,0 +1,12 @@
+## Here is an example for Common-Lisp.
+## Adapted from http://cl-cad.blogspot.com
+## (litetabs@gmail.com)
+syntax "lisp" "\.lisp$"  "asd" "\.l$"
+color green "\<(defun|with-open-stream|format|setf|apply|and|car|caar|cadr|cdar|cddr|cdr|close|cond|cons|count|do|eql|equal|eval|if|let*|let|list|load|make-package|mapcar|mapc|not|null|numberp|open|or|pprint|prin1|princ|print|provide|read|require|setq|slot-value|sort|stringp|terpri|write|case|progn|when|loop|unless|with-output-to-string|labels|return-from|handler-case|eval-when|declare|with-open-file|multiple-value-bind|with-standard-io-syntax|getf|remove-if-not|dolist|consp)\>"
+color red "\<(error|else|for|in-package|defpackage|defsystem|lambda)\>"
+color cyan "\<(defclass|defstruct|defvar|defconstant|defmethod|defgeneric|defparameter|defmacro)\>"
+color brightred "\<(t|nil)\>"
+icolor yellow "\:\{?[0-9A-Z_!@#$*?-]+\}?"
+color brightgreen ""(\\.|[^"])*""
+icolor blue "\*\{?[0-9A-Z_!@#$*?-]+\}?"
+color cyan "(^|[[:space:]]);.*$"
