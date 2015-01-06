@@ -1,4 +1,4 @@
-syntax "markdown" "\.txt$" "\.text$" "\.md$" "\.markdown$"
+syntax "markdown" "\.md$" "\.markdown$"
 
 ## Quotations
 color cyan "^>.*"
