@@ -5,13 +5,13 @@ icolor yellow ""(\\.|[^"])*""
 
 # Variable name and value
 icolor brightyellow start="=" end="$"
-icolor magenta start="(^|[[:space:]])[0-9a-z-]" end="="
+icolor magenta start="^[[:space:]]*[0-9a-z-]" end="="
 
 # Braces and parentheses
 icolor brightred "(^|[[:space:]])((\[|\()[0-9a-z_!@#$%^&*-]+(\]|\)))"
 
 # Numbers
-color green "[[:space:]][0-9.KM]+"
+icolor green "[[:space:]][0-9]+[0-9.]*[KMGT]*"
 
 # Comments
 color cyan start="(^|[[:space:]])(#|;).*$" end="$"
