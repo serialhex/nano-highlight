@@ -77,6 +77,7 @@ config.nanorc       etcxml.nanorc      makefile.nanorc         php.nanorc       
 
 ### files from [scopatz / nanorc][] ('do whatever you want' licence) ###
 [scopatz / nanorc]: https://github.com/scopatz/nanorc
+*his repo has since changed, see LICENSE for the new license these fall under*
 
 apacheconf.nanorc  css.nanorc      groff.nanorc  man.nanorc       patch.nanorc  python.nanorc  sh.nanorc
 asm.nanorc         cython.nanorc   html.nanorc   markdown.nanorc  perl.nanorc   tex.nanorc     c.nanorc           
