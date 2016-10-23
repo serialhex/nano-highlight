@@ -1,4 +1,2 @@
-## Email quoting
-##
-syntax "emailquote"
+syntax "emailquote" "/tmp/mutt-*"
 color green "^>.*"

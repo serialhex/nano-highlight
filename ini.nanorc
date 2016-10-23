@@ -1,17 +1,22 @@
-# ini highlighting
 syntax "ini" "\.ini(\.old|~)?$"
  
-# values
+## Values
 color brightred "=.*$"
-# equal sign
+
+## Equal sign
 color green "="
-# numbers
+
+## Numbers
 color brightblue "-?[0-9\.]+\s*($|;)"
-# ON/OFF
+
+## ON/OFF
 color brightmagenta "ON|OFF|On|Off|on|off\s*($|;)"
-# sections
+
+## Sections
 color brightcyan "^\s*\[.*\]"
-# keys
+
+## Keys
 color cyan "^\s*[a-zA-Z0-9_\.]+"
-# comments
+
+## Comments
 color brightyellow ";.*$"

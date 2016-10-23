@@ -1,5 +1,3 @@
-## syntax highlighting in xorg.conf
-##
 syntax "xorg" "xorg\.conf$"
 color brightwhite "[^A-Za-z0-9](End)?Sub[sS]ection([^A-Za-z0-9]|[[:space:]]*)"
 color brightwhite "^[[:space:]]*(End)?Section([^A-Za-z0-9]|[[:space:]]*)"

@@ -5,7 +5,7 @@ a spiffy collection of nano syntax highlighting files
 -----------------------------------------------------
 
 *most* (ok, prettymuch all) of these have been stol\*COUGH\* politely included in this repository.  proper 
-attribution follows at the end of it all...
+attribution follows at the end of it all...  Unless otherwise specified, all files are under the [unlicense](http://unlicense.org/)
 
 WTF do i need these stupid things for???
 ----------------------------------------
@@ -37,7 +37,7 @@ then simply add the different \*.nanorc files that you want to use to your `~/.n
 	include "~/.nano/python.nanorc"
 	
 	## Bourne shell scripts
-	include "~/.nano/sh.nanorc"
+	include "~/.nano/bash.nanorc"
 	
 	## CSS
 	include "~/.nano/css.nanorc"
@@ -77,6 +77,7 @@ config.nanorc       etcxml.nanorc      makefile.nanorc         php.nanorc       
 
 ### files from [scopatz / nanorc][] ('do whatever you want' licence) ###
 [scopatz / nanorc]: https://github.com/scopatz/nanorc
+*his repo has since changed, see LICENSE for the new license these fall under*
 
 apacheconf.nanorc  css.nanorc      groff.nanorc  man.nanorc       patch.nanorc  python.nanorc  sh.nanorc
 asm.nanorc         cython.nanorc   html.nanorc   markdown.nanorc  perl.nanorc   tex.nanorc     c.nanorc           

@@ -1,30 +1,30 @@
-## Haskell syntax highlighting
-## found here: http://www.wubutu.com/2011/05/syntax-highlighting-nano-ban.html
 syntax "haskell" "\.hs$"
-## language words
+
+## Keywords
 color red "[ ](as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)[ ]"
 color red "(^data|^foreign|^import|^infix|^infixl|^infixr|^instance|^module|^newtype|^type)[ ]"
 color red "[ ](as$|case$|of$|class$|data$|default$|deriving$|do$|forall$|foreign$|hiding$|if$|then$|else$|import$|infix$|infixl$|infixr$|instance$|let$|in$|mdo$|module$|newtype$|qualified$|type$|where$)"
-## lang symbols
+
+## Various symbols
 color cyan "(\||@|!|:|_|~|=|\\|;|\(\)|,|\[|\]|\{|\})"
-## lang operators
+
+## Operators
 color magenta "(==|/=|&&|\|\||<|>|<=|>=)"
-## lang symbols
+
+## Various symbols
 color cyan "(->|<-)"
 color magenta "\.|\$"
-## data types
-## color yellow "(Maybe|Double|Int|Integer|Float|Rational|Either|Char|String)"
-## data constructors
+
+## Data constructors
 color magenta "(True|False|Nothing|Just|Left|Right|LT|EQ|GT)"
-## data classes
+
+## Data classes
 color magenta "[ ](Read|Show|Enum|Eq|Ord|Data|Bounded|Typeable|Num|Real|Fractional|Integral|RealFrac|Floating|RealFloat|Monad|MonadPlus|Functor)"
 
-## other
-## color yellow "'\\[ntfr]'"
-
-## strings
+## Strings
 color yellow ""[^\"]*""
-## Comment highlighting
+
+## Comments
 color green "--.*"
 color green start="\{-" end="-\}"
 

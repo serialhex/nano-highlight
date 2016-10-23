@@ -1,8 +1,5 @@
-## Fortran 90/95
-
 syntax "fortran" "\.(f|f90|f95|for)$" 
 
-#color red "\<[A-Z_]a[0-9A-Z_]+\>" 
 color red "\<[0-9]+\>" 
 
 icolor green "\<(action|advance|all|allocatable|allocated|any|apostrophe)\>"
@@ -33,14 +30,14 @@ icolor yellow "\<(.or.|repeat|select case|then|where|while)\>"
 
 icolor magenta "\<(continue|cycle|exit|go?to|result|return)\>"
 
-#Operator Color
+## Operators
 color yellow "[.:;,+*|=!\%]" "<" ">" "/" "-" "&"
 
-#Parenthetical Color
+## Braces and parentheses
 color magenta "[(){}]" "\[" "\]"
 
-## String highlighting.  
+## Strings
 icolor brightblue "<[^=     ]*>" ""(\\.|[^"])*""
 
-## Comment highlighting
+## Comments
 icolor brightred "^!.*" "^c.*" "^C.*"

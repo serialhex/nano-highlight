@@ -1,5 +1,3 @@
-## *.Info file syntax
-##
 syntax "info" "Info.txt$"
 color green "[0-9]"
 color brightblue "\<(video|codec|bitrate|width|height|General|FileSize|Format|OveralBitRate|PlayTime)\>"
