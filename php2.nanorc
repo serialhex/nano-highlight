@@ -1,0 +1,12 @@
+
+# PHP Syntax Highlighting
+syntax "php2" "\.php[2345s~]?$"
+color brightblue "(.*)\("
+color blue "\$[a-zA-Z_0-9$]*|[=!<>]"
+color green "(var|class|function|echo|case|break|default|exit|switch|if|else|elseif|@|while)\s"
+color green "[.,{}();]"
+color red "('.*')|(\".*\")"
+color brightyellow "(#.*|//.*)$"
+color brightyellow start="/\*" end="\*/"
+color brightblue "(<\?(php)?|\?>)"
+color white start="\?>" end="<\?(php)?" 
