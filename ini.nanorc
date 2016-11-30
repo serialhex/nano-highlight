@@ -10,7 +10,7 @@ color green "="
 color brightblue "-?[0-9\.]+\s*($|;)"
 
 ## ON/OFF
-color brightmagenta "ON|OFF|On|Off|on|off\s*($|;)"
+color brightmagenta "(ON|OFF|On|Off|on|off)\s*($|;)"
 
 ## Sections
 color brightcyan "^\s*\[.*\]"
