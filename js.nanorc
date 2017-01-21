@@ -24,7 +24,7 @@ color red "\<(true|false)\>"
 color brightyellow "L?\"(\\"|[^"])*\""
 color brightyellow "L?'(\'|[^'])*'"
 color brightcyan "L?`(\`|[^`])*`"
-color brightmagenta "\$\{(.+)\}"
+color ,magenta "\$\{(.+)\}"
 
 ## Escapes
 color red "\\[0-7][0-7]?[0-7]?|\\x[0-9a-fA-F]+|\\[bfnrt'"\?\\]"
