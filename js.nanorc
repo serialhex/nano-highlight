@@ -23,6 +23,8 @@ color red "\<(true|false)\>"
 ## String
 color brightyellow "L?\"(\\"|[^"])*\""
 color brightyellow "L?'(\'|[^'])*'"
+color brightcyan "L?`(\`|[^`])*`"
+color brightmagenta "\$\{(.+)\}"
 
 ## Escapes
 color red "\\[0-7][0-7]?[0-7]?|\\x[0-9a-fA-F]+|\\[bfnrt'"\?\\]"
