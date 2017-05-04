@@ -1,0 +1,22 @@
+# Supports `.env` files
+syntax "dotenv" "\/\.env(\.old|\.bak|~)?$"
+
+## Keys
+color cyan "^\s*[A-Z0-9_]+"
+
+## Values
+color brightyellow "=.*$"
+color ,red "[\'\"].*$"
+color brightwhite "[\'\"].*[\'\"]$"
+
+## Equal sign
+color green "="
+
+## Booleans
+color brightmagenta "(TRUE|true|FALSE|false)\s*($|;)"
+
+## Comments
+color brightyellow ";.*$"
+
+## Spaces in front of tabs.
+color ,red " +  +"
