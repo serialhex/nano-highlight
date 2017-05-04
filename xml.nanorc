@@ -1,4 +1,4 @@
-syntax "ml" ".*\.([jrs]?html?|xml|sgml?|lhtml|opml|kdevelop|vcproj|glade|xsd|plist|gcs|dtd|dcl)$" "catalog$" "docbook$"
+syntax "ml" ".*\.([jrs]?html?|xml|sgml?|lhtml|opml|kdevelop|vcproj|glade|xsd|plist|gcs|dtd|dcl|tmLanguage)$" "catalog$" "docbook$"
 color white "^.+$"
 color green  start="<" end=">"
 color cyan   "<[^> ]+"
