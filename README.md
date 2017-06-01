@@ -57,7 +57,7 @@ OOH!!!  that's spiffy!!  thanks for all your hard work in making all these files
 
 umm, yeah, about that, i didnt make *all* of them, here is the list of who did what with whom:
 
-### files from [nanosyntax][] (New BSD license)###
+### files from [nanosyntax][] (New BSD license) ###
 [nanosyntax]: http://code.google.com/p/nanosyntax/
 
 apache2.nanorc      conf.nanorc        gentoo.nanorc           man.nanorc          plaudis.nanorc      sources_list.nanorc
