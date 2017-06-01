@@ -9,7 +9,7 @@ color brightmagenta "^\s*@[\$A-Za-z0-9_-]+\:"
 ## Values
 color white ":\s.+$"
 ## Booleans
-color brightcyan " (TRUE|true|FALSE|false|[Yy][Ee]?[Ss]?|[Nn][Oo]?)$"
+color brightcyan " (y|Y|yes|Yes|YES|n|N|no|No|NO|true|True|TRUE|false|False|FALSE|on|On|ON|off|Off|OFF)$"
 ## Numbers
 color brightred " [[:digit:]]+(\.[[:digit:]]+)?"
 ## Arrays
