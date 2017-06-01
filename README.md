@@ -1,24 +1,24 @@
 nano-highlight
 ==============
 
-a spiffy collection of nano syntax highlighting files
+A spiffy collection of nano syntax highlighting files
 -----------------------------------------------------
 
-*most* (ok, prettymuch all) of these have been stol\*COUGH\* politely included in this repository.  proper 
+*Most* (ok, prettymuch all) of these have been stol\*COUGH\* politely included in this repository.  Proper 
 attribution follows at the end of it all...  Unless otherwise specified, all files are under the [unlicense](http://unlicense.org/)
 
 WTF do i need these stupid things for???
 ----------------------------------------
 
-well, if EMACS or vi are  too much of a **PITA** for you to learn, and all the other text editors you've used are 
-likewise annoying for some reason (yes i'm looking at you Kate & Gedit) then nano is probably your best option!  (or 
+Well, if EMACS or vi are  too much of a **PITA** for you to learn, and all the other text editors you've used are 
+likewise annoying for some reason (yes i'm looking at you Kate & Gedit) then nano is probably your best option!  (Or 
 if you just like the simplicity of using an extremely lightweight console editor, which is one of the biggest reasons 
 why __*I*__ use it)
 
-so HTF do i use these things???
+So HTF do i use these things???
 -------------------------------
 
-one of the easiest ways is like this:
+One of the easiest ways is like this:
 `git clone git://github.com/serialhex/nano-highlight.git ~/.nano`
 then simply add the different \*.nanorc files that you want to use to your `~/.nanorc` file.  for example, this is mine:
 
@@ -48,16 +48,16 @@ then simply add the different \*.nanorc files that you want to use to your `~/.n
 	## Markdown
 	include "~/.nano/markdown.nanorc"`
 
-there are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage][] online or your very own nanorc manpage for more details.
+There are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage][] online or your very own nanorc manpage for more details.
 
-[nanorc manpage]: http://www.nano-editor.org/dist/v2.2/nanorc.5.html
+[nanorc manpage]: http://www.nano-editor.org/dist/v2.8/nanorc.5.html
 
 OOH!!!  that's spiffy!!  thanks for all your hard work in making all these files!!
 ----------------------------------------------------------------------------------
 
-umm, yeah, about that, i didnt make *all* of them, here is the list of who did what with whom:
+Umm, yeah, about that, i didnt make *all* of them, here is the list of who did what with whom:
 
-### files from [nanosyntax][] (New BSD license) ###
+### Files from [nanosyntax][] (New BSD license) ###
 [nanosyntax]: http://code.google.com/p/nanosyntax/
 
 apache2.nanorc      conf.nanorc        gentoo.nanorc           man.nanorc          plaudis.nanorc      sources_list.nanorc
@@ -75,7 +75,7 @@ config3.nanorc      etcportage.nanorc  log-stuff.nanorc        perl.nanorc      
 configfiles.nanorc  etc-stuff.nanorc   maincf.nanorc           php2.nanorc         sh.nanorc
 config.nanorc       etcxml.nanorc      makefile.nanorc         php.nanorc          softcam.nanorc
 
-### files from [scopatz / nanorc][] ('do whatever you want' licence) ###
+### Files from [scopatz / nanorc][] ('do whatever you want' licence) ###
 [scopatz / nanorc]: https://github.com/scopatz/nanorc
 *his repo has since changed, see LICENSE for the new license these fall under*
 
@@ -84,14 +84,14 @@ asm.nanorc         cython.nanorc   html.nanorc   markdown.nanorc  perl.nanorc   
 fortran.nanorc     java.nanorc     mutt.nanorc   php.nanorc       reST.nanorc   xml.nanorc     conf.nanorc        
 gentoo.nanorc      lua.nanorc      nanorc.nanorc pov.nanorc       ruby.nanorc
 
-### files found 'round the net (see the file for more info) ###
+### Files found 'round the net (see the file for more info) ###
 
 markdown.nanorc    txt2tags.nanorc
 
-### files from [aaronhamilton / coffeescript-nano][] ###
+### Files from [aaronhamilton / coffeescript-nano][] ###
 [aaronhamilton / coffeescript-nano]: https://github.com/aaronhamilton/coffeescript-nano
 coffee.nanorc
 
-## this is the end ##
+## This is the end ##
 
-that's it, have fun & dont hurt yourself!!
+That's it, have fun & dont hurt yourself!!
