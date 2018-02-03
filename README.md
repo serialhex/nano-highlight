@@ -62,22 +62,24 @@ Umm, yeah, about that, i didnt make *all* of them, here is the list of who did w
 ### Files from [nanosyntax][] (New BSD license) ###
 [nanosyntax]: http://code.google.com/p/nanosyntax/
 
-| | | | | | |
-| --- | --- | --- | --- | --- | --- |
-| apache2.nanorc     | conf.nanorc       | gentoo.nanorc          | man.nanorc         | plaudis.nanorc     | sources_list.nanorc |
-| apacheconf.nanorc  | conky.nanorc      | groff.nanorc           | mcchangelog.nanorc | po.nanorc          | tab.nanorc          |
-| aptsrclist.nanorc  | css.nanorc        | havp.nanorc            | mimetype.nanorc    | postgresql.nanorc  | tcl.nanorc          |
-| asm.nanorc         | debian.nanorc     | html.nanorc            | mutt.nanorc        | pov.nanorc         | tex.nanorc          |
-| bash.nanorc        | default.nanorc    | httpstatuscodes.nanorc | named.nanorc       | privoxy.nanorc     | urls.nanorc         |
-| c-file.nanorc      | delphi.nanorc     | info.nanorc            | nanorc.nanorc      | profile.nanorc     | vhost.nanorc        |
-| changelog.nanorc   | desc.nanorc       | ini.nanorc             | nscd.nanorc        | python.nanorc      | xdefaults.nanorc    |
-| changelogs.nanorc  | dotemacs.nanorc   | initng.nanorc          | others.nanorc      | rcfiles.nanorc     | xml.nanorc          |
-| clike.nanorc       | dummy.nanorc      | initscript.nanorc      | paludis.nanorc     | rcfiles-new.nanorc | xorg.nanorc         |
-| c.nanorc           | ebuild.nanorc     | java.nanorc            | passwd.nanorc      | rsync.nanorc       |                     |
-| config2.nanorc     | ekghistory.nanorc | js.nanorc              | patch.nanorc       | ruby.nanorc        |                     |
-| config3.nanorc     | etcportage.nanorc | log-stuff.nanorc       | perl.nanorc        | shlike.nanorc      |                     |
-| configfiles.nanorc | etc-stuff.nanorc  | maincf.nanorc          | php2.nanorc        | sh.nanorc          |                     |
-| config.nanorc      | etcxml.nanorc     | makefile.nanorc        | php.nanorc         | softcam.nanorc     |                     |
+| | | | | |
+| --- | --- | --- | --- | --- |
+| apache2.nanorc     | css.nanorc        | httpstatuscodes.nanorc | nscd.nanorc        | rcfiles-new.nanorc  |
+| apacheconf.nanorc  | debian.nanorc     | info.nanorc            | others.nanorc      | rsync.nanorc        |
+| aptsrclist.nanorc  | default.nanorc    | ini.nanorc             | paludis.nanorc     | ruby.nanorc         |
+| asm.nanorc         | delphi.nanorc     | initng.nanorc          | passwd.nanorc      | shlike.nanorc       |
+| bash.nanorc        | desc.nanorc       | initscript.nanorc      | patch.nanorc       | sh.nanorc           |
+| c-file.nanorc      | dotemacs.nanorc   | java.nanorc            | perl.nanorc        | softcam.nanorc      |
+| changelog.nanorc   | dummy.nanorc      | js.nanorc              | php2.nanorc        | sources_list.nanorc |
+| changelogs.nanorc  | ebuild.nanorc     | log-stuff.nanorc       | php.nanorc         | tab.nanorc          |
+| clike.nanorc       | ekghistory.nanorc | maincf.nanorc          | plaudis.nanorc     | tcl.nanorc          |
+| c.nanorc           | etcportage.nanorc | makefile.nanorc        | po.nanorc          | tex.nanorc          |
+| config2.nanorc     | etc-stuff.nanorc  | man.nanorc             | postgresql.nanorc  | urls.nanorc         |
+| config3.nanorc     | etcxml.nanorc     | mcchangelog.nanorc     | pov.nanorc         | vhost.nanorc        |
+| configfiles.nanorc | gentoo.nanorc     | mimetype.nanorc        | privoxy.nanorc     | xdefaults.nanorc    |
+| config.nanorc      | groff.nanorc      | mutt.nanorc            | profile.nanorc     | xml.nanorc          |
+| conf.nanorc        | havp.nanorc       | named.nanorc           | python.nanorc      | xorg.nanorc         |
+| conky.nanorc       | html.nanorc       | nanorc.nanorc          | rcfiles.nanorc     |                     |
 
 ### Files from [scopatz / nanorc][] ('do whatever you want' licence) ###
 [scopatz / nanorc]: https://github.com/scopatz/nanorc
