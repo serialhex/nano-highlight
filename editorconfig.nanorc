@@ -1,4 +1,4 @@
-syntax "editorconfig" "/\.editorconfig(\.old|\.bak|~)?$"
+syntax "editorconfig" "\.editorconfig(\.old|\.bak|~)?$"
 
 ## Values
 color brightred "=.*$"
