@@ -1,4 +1,4 @@
-syntax "ini" "\.ini(\.old|~)?$"
+syntax "ini" "\.ini(\.old|\.bak|\.example|~)?$"
  
 ## Values
 color brightred "=.*$"
