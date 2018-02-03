@@ -50,17 +50,15 @@ include "~/.nano/html.nanorc"
 include "~/.nano/markdown.nanorc"
 ```
 
-There are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage][] online or your very own nanorc manpage for more details.
+There are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage](http://www.nano-editor.org/dist/v2.8/nanorc.5.html) online or your very own nanorc manpage for more details.
 
-[nanorc manpage]: http://www.nano-editor.org/dist/v2.8/nanorc.5.html
+OOH!!! That's spiffy!!! Thanks for all your hard work in making all these files!!!
 
-OOH!!!  that's spiffy!!  thanks for all your hard work in making all these files!!
-----------------------------------------------------------------------------------
+---
 
-Umm, yeah, about that, i didnt make *all* of them, here is the list of who did what with whom:
+Umm, yeah, about that, I didn't make *all* of them, here is the list of who did what with whom:
 
-### Files from [nanosyntax][] (New BSD license) ###
-[nanosyntax]: http://code.google.com/p/nanosyntax/
+### Files from [nanosyntax](http://code.google.com/p/nanosyntax/) (New BSD license)
 
 | | | | | |
 | --- | --- | --- | --- | --- |
@@ -81,9 +79,9 @@ Umm, yeah, about that, i didnt make *all* of them, here is the list of who did w
 | conf.nanorc        | havp.nanorc       | named.nanorc           | python.nanorc      | xorg.nanorc         |
 | conky.nanorc       | html.nanorc       | nanorc.nanorc          | rcfiles.nanorc     |                     |
 
-### Files from [scopatz / nanorc][] ('do whatever you want' licence) ###
-[scopatz / nanorc]: https://github.com/scopatz/nanorc
-*his repo has since changed, see LICENSE for the new license these fall under*
+### Files from [scopatz / nanorc](https://github.com/scopatz/nanorc) ('do whatever you want' licence)
+
+> *his repo has since changed, see LICENSE for the new license these fall under*
 
 | | | | | | |
 | --- | --- | --- | --- | --- | --- |
@@ -93,14 +91,13 @@ Umm, yeah, about that, i didnt make *all* of them, here is the list of who did w
 | gentoo.nanorc     | lua.nanorc    | nanorc.nanorc | pov.nanorc      | ruby.nanorc  | sh.nanorc     |
 | c.nanorc          | conf.nanorc   |               |                 |              |               |
 
-### Files found 'round the net (see the file for more info) ###
+### Files found 'round the net (see the file for more info)
 
 | | |
 | --- | --- |
 | markdown.nanorc | txt2tags.nanorc |
 
-### Files from [aaronhamilton / coffeescript-nano][] ###
-[aaronhamilton / coffeescript-nano]: https://github.com/aaronhamilton/coffeescript-nano
+### Files from [aaronhamilton / coffeescript-nano](https://github.com/aaronhamilton/coffeescript-nano)
 
 | | |
 | --- | --- |
