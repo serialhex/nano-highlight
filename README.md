@@ -101,6 +101,7 @@ Umm, yeah, about that, i didnt make *all* of them, here is the list of who did w
 
 ### Files from [aaronhamilton / coffeescript-nano][] ###
 [aaronhamilton / coffeescript-nano]: https://github.com/aaronhamilton/coffeescript-nano
+
 | | |
 | --- | --- |
 | coffee.nanorc | |
