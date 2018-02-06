@@ -1,5 +1,5 @@
 # Supports `.env` files
-syntax "dotenv" "\/\.env(\.old|\.bak|~)?$"
+syntax "dotenv" "\/\.env(\.old|\.bak|.example|~)?$"
 
 ## Keys
 color cyan "^\s*[A-Z0-9_]+"

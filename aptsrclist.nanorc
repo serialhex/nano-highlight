@@ -1,12 +1,12 @@
 syntax "apt/sources.list" "sources\.list(\.old|~)?$"
 ## Component
-color brightmagenta "^deb(-src)? ((http|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[a-zA-Z0-9\._\-\(\) ]+\]/) [^ ]+ .+$"
+color brightmagenta "^deb(-src)? ((https?|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[a-zA-Z0-9\._\-\(\) ]+\]/) [^ ]+ .+$"
 
 ## Distribution
-color brightred "^deb(-src)? ((http|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[a-zA-Z0-9\._\-\(\) ]+\]/) [^ ]+"
+color brightred "^deb(-src)? ((https?|file|ftp):/[^ ]+|cdrom:\[[^\]]+\]/|cdrom:\[[a-zA-Z0-9\._\-\(\) ]+\]/) [^ ]+"
 
 ## URI
-color brightgreen "(http|file|ftp):/[^ ]+"
+color brightgreen "(https?|file|ftp):/[^ ]+"
 
 ## CD-ROMs
 # FIXME: [^\]] does not work.
