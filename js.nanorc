@@ -1,4 +1,4 @@
-syntax "javascript" "\.(mjs)|(js)|(json)$"
+syntax "javascript" "\.(mjs)|(js)|(jsx)|(json)$"
 
 ## Default
 color white "^.+$"
