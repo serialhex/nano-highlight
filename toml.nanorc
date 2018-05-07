@@ -1,0 +1,11 @@
+# Supports `TOML` files
+syntax "TOML" "\.toml$"
+
+## Values
+icolor yellow "=.*$"
+
+## Tables
+icolor red "^\[.*\]$"
+
+## Comments (keep at the end)
+icolor cyan "#.*$"
