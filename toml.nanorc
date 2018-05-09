@@ -1,0 +1,16 @@
+# Supports `TOML` files
+syntax "TOML" "\.toml$"
+
+## Multiline
+icolor yellow start="\"\"\"" end="\"\"\""
+icolor yellow start="'''" end="'''"
+icolor yellow start="\[" end="\]"
+
+## Values
+icolor yellow "=.*"
+
+## Tables
+icolor red "^\s*\[.*\]$"
+
+## Comments (keep at the end of this file!)
+icolor cyan "#.*$"
