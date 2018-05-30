@@ -1,0 +1,46 @@
+syntax "pony" "\.pony$"
+
+## Pony lang syntax hilighting for nano
+## Richard JUAN @ https://github.com/richardjuan
+
+## Classes
+color yellow "( |^)[A-Z](|[0-9a-zA-Z_\-]*)"
+color yellow "( |^)@[A-Z][a-zA-Z0-9_\-\.]*"
+color cyan "^(class|actor) [A-Z][a-zA-Z0-9_\-]+ .*"
+
+## Types and bool
+color yellow "\<(true|false|tag|trn|val|iso|box|ref)\>"
+
+## Basic keywords
+color brightmagenta "\<(let|var|do|end|as|is|match|then|for|while|if|else|break|continue|repeat|until|in|try|with|where|object|contume|recover|embed|compile_error|error|lambda|this)\>"
+
+## Declarations
+color brightmagenta "^(class|primitive|type|actor|trait|interface) "
+
+## Important keywords
+color brightred "^[ \t]*(new|fun|be|ifdef) "
+color brightred "^(use) "
+
+
+## Comments
+color white "//.*"
+
+## Integers, Floats ...
+color yellow "\<[+-]?[0-9]+\>"
+color yellow "\<[-+]?[0-9]*\.?[0-9]+(e[-+]?[0-9]+)?\>"
+color yellow "\<0x[0-9a-fA-F]+\>"
+color yellow "\<0b[0-1]+\>"
+
+## Class/Actor call
+color Yellow "\<[A-Z][a-zA-Z0-9_\-]+(\(|\.)"
+color brightblue "\<[a-zA-Z0-9_\-]+\("
+
+## white dots and parentessis
+color brightwhite "[.:()&*=+-|{}%<>!@]"
+color brightwhite "(\\|/|\[|\])"
+color brightwhite " (xor|or|and|not) "
+
+# Quoted strings
+color brightgreen "['][^']*[^\\][']" "[']{3}.*[^\\][']{3}"
+color brightgreen "["][^"]*[^\\]["]" "["]{3}.*[^\\]["]{3}"
+color brightgreen start=""""[^"]" end=""""" start="'''[^']" end="'''"
