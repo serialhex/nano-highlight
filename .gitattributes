@@ -1,5 +1,1 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-# Force unix line endings for bashrc
-*.bashrc text eol=lf
+* text eol=lf
