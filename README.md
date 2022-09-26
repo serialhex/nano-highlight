@@ -19,7 +19,7 @@ So HTF do i use these things???
 -------------------------------
 
 One of the easiest ways is like this:
-`git clone git://github.com/serialhex/nano-highlight.git ~/.nano`
+`git clone https://github.com/serialhex/nano-highlight ~/.nano`
 then simply add the different \*.nanorc files that you want to use to your `~/.nanorc` file.  for example, this is mine:
 
 ```bash
