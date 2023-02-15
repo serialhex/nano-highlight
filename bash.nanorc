@@ -1,4 +1,6 @@
-syntax "bash" "\.sh$" "\.bash$" "/.bash_profile$" "(\.|/)profile$" "\rc$" "(\.|/)control$"
+# Bash only syntax highlighting
+#
+syntax "bash" "\.bash$" "\.bash_(profile|aliases|functions|login|logout)$" "(\.|/)profile$"
 header "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
 
 ## Control
