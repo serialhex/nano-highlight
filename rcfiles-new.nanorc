@@ -8,7 +8,7 @@ color yellow "(#(define|include)|LANGUAGE|FONT)"
 
 ### all *rc files  ( e.g. .bashrc, inputrc, xtermcontrol .... )
 #syntax "rcfiles" "(\.|/)rc$" "(\.|/)control$"
-syntax "rcfiles" "((.ba|ba|c|.c)sh|input|xinit|eix|(.w|w)minet)|gtk|rc$"
+syntax "rcfiles" "\.?((ba|c|z)sh|input|xinit|eix|wminet|gtk)rc$"
 color red "'(\\.|[^'])*'"
 color blue ""(\\.|[^\"])*""
 color magenta "[A-Z0-9\_]+="
