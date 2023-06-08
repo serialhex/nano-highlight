@@ -50,7 +50,7 @@ include "~/.nano/html.nanorc"
 include "~/.nano/markdown.nanorc"
 ```
 
-There are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage](http://www.nano-editor.org/dist/v2.8/nanorc.5.html) online or your very own nanorc manpage for more details.
+There are other spiffy things you can do in your `.nanorc` file, see [nanorc manpage](https://www.nano-editor.org/dist/latest/nanorc.5.html) online or your very own nanorc manpage for more details.
 
 OOH!!! That's spiffy!!! Thanks for all your hard work in making all these files!!!
 
