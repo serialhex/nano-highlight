@@ -10,6 +10,13 @@ color yellow "\<[-+]?([1-9][0-9]*|0[0-7]*|0x[0-9a-fA-F]+)([uU][lL]?|[lL][uU]?)?\
 color yellow "\<[-+]?([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([EePp][+-]?[0-9]+)?[fFlL]?"
 color yellow "\<[-+]?([0-9]+[EePp][+-]?[0-9]+)[fFlL]?"
 
+## JSX tags
+color cyan   "<[^> ]+"
+color cyan   "<[a-zA-Z][a-zA-Z0-9]*>"
+color cyan   "</[a-zA-Z][a-zA-Z0-9]*>"
+color cyan   ">$"
+color cyan   "/>"
+
 ## Keywords
 color green "\<(abstract|await|boolean|break|byte|case|catch|char)\>"
 color green "\<(class|const|continue|debugger|default|delete|double)\>"
